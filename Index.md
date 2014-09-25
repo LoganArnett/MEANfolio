@@ -1,3 +1,5 @@
+---
+---
 ### Logan Arnett
 
 #### About Blog Portfolio Contact
@@ -35,6 +37,7 @@ center of the buzzing Central Florida Tech Community!
 * Phone
 
 * Message
+---
 
 
 
