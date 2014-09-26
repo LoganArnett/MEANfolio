@@ -45,17 +45,17 @@ center of the buzzing Central Florida Tech Community!
 </div>
 
 
-### Portfolio
+<h3>Portfolio</h3>
 
-[LoganArnett.Github.io](https://github.com/LoganArnett/LoganArnett.github.io)
+<p><a href="https://github.com/LoganArnett/LoganArnett.github.io">LoganArnett.Github.io</a></p></br>
 
-[Link to Github Repo 1](/)
+<p><a href="/">Link to Github Repo 1</a></p></br>
 
-[Link to Github Repo 2](/)
+<p><a href="/">Link to Github Repo 2</a></p></br>
 
-[Link to Coming Soon Image](/)
+<p><a href="/">Link to Coming Soon Image</a></p>
 
-### Get in Touch
+<h3>Get in Touch</h3>
 
 * Name
 
