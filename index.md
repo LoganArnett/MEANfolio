@@ -18,15 +18,22 @@ classates and for all of you to witness us evolve into Web Developers in the
 center of the buzzing Central Florida Tech Community!
 
 ### The Ironing Board
+
+[Blog Post 4](/)
+
 [Blog Post 3](/)
-[Blog Post 3](/)
+
 [Blog Post 2](/)
+
 [Blog Post 1](/)
 
 ### Portfolio
 ##### Just a few things I've worked on...
+
 [Link to Github Repo 1](/)
+
 [Link to Github Repo 2](/)
+
 [Link to Coming Soon Image](/)
 
 ### Get in Touch
