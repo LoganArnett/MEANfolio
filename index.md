@@ -35,22 +35,19 @@ center of the buzzing Central Florida Tech Community!
 
 [Blog Post 4](/)
 
-<img src="images/321go.jpg" alt="" width="150" height="230">
-
-
+<img src="images/321go.jpg" alt="" width="150" height="230"></br>
 [Day 3..2.1 GO!](/2014/09/24/Day-3-2-1-Go)
 
-<img src="images/ironman.jpg" alt="" width="150" height="230">
-
-
+<img src="images/ironman.jpg" alt="" width="150" height="230"></br>
 [The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)
 
-<img src="images/liftoff.png" alt="" width="150" height="230">
+<img src="images/liftoff.png" alt="" width="150" height="230"></br>
+[We Have Liftoff](/2014/09/22/We-Have-Liftoff)
 
 </div>
 
 
-[We Have Liftoff](/2014/09/22/We-Have-Liftoff)
+
 
 ### Portfolio
 
