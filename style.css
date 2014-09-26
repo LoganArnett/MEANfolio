@@ -14,3 +14,8 @@
 #navbar-right {
     float: right;
 }
+
+#banner {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -17,7 +17,7 @@ layout: default
 
 #### About Blog Portfolio Contact
 
-<div id ="banner"><img src="images/paintbg.jpg" alt="images/wolvevo.png" width="auto"></div>
+<p id ="banner"><img  src="images/paintbg.jpg" alt="images/wolvevo.png"></p>
 
 # Welcome to The Iron Blog!
 This is where I will keep you all up to date about my web development
