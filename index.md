@@ -14,7 +14,8 @@ layout: default
 
 #### About Blog Portfolio Contact
 
-<div id ="banner"><img src="images/paintbg.jpg" alt="images/wolvevo.png" width="auto"> </div>
+<div id ="banner"><img src="images/paintbg.jpg" alt="images/wolvevo.png" width="auto"></div>
+
 # Welcome to The Iron Blog!
 This is where I will keep you all up to date about my web development
 adventures here at [The Iron Yard](http://theironyard.com/) Academy. As part
