@@ -5,11 +5,12 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    right: 0px;
+    right: 40px;
 }
 
 #nav li {
     display: inline;
+    padding: 20px;
 }
 
 
