@@ -20,16 +20,16 @@
     margin-right: auto;
 }
 
-nav li a:link {
+a:link {
     text-decoration: none;
     color: #000;
 }
 
-nav li a:visited {
+a:visited {
     text-decoration: none;
 }
 
-nav li a:hover {
+a:hover {
     text-decoration: underline;
     background-color: #99FF00;
 }
