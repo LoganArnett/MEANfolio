@@ -28,6 +28,7 @@ classates and for all of you to witness us evolve into Web Developers in the
 center of the buzzing Central Florida Tech Community!
 
 ### The Ironing Board
+<<<<<<< HEAD
 [Blog Post 4](/)
 [Day 3..2.1 GO!](/2014/09/24/Day-3-2-1-Go)
 [The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)
@@ -36,7 +37,23 @@ center of the buzzing Central Florida Tech Community!
 ### Portfolio
 ##### Just a few things I've worked on...
 [LoganArnett.Github.io](https://github.com/LoganArnett/LoganArnett.github.io)
+=======
+
+[Blog Post 4](/)
+
+[Blog Post 3](/)
+
+[Blog Post 2](/)
+
+[Blog Post 1](/)
+
+### Portfolio
+
+[Link to Github Repo 1](/)
+
+>>>>>>> master
 [Link to Github Repo 2](/)
+
 [Link to Coming Soon Image](/)
 
 ### Get in Touch
