@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-### Logan Arnett
+
 
 <div id="navbar" >
+    <h3 id="mainname"> Logan Arnett</h3>
     <ul id="nav">
         <li><a href="/">About</a></li>
         <li><a href="/">Blog</a></li>
