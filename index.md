@@ -15,8 +15,6 @@ layout: default
     </div>
 </div>
 
-
-
 <p id ="banner"><img  src="images/paintbg.jpg" alt="images/wolvevo.png"></p>
 
 # Welcome to The Iron Blog!
