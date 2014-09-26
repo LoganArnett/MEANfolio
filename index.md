@@ -28,7 +28,7 @@ center of the buzzing Central Florida Tech Community!
 [Blog Post 1](/)
 
 ### Portfolio
-##### Just a few things I've worked on...
+###### Just a few things I've worked on...
 
 [Link to Github Repo 1](/)
 
