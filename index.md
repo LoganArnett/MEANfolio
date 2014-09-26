@@ -4,7 +4,7 @@ layout: default
 ### Logan Arnett
 
 <div id="navbar" >
-    <ul id="nav" style="display: inline;">
+    <ul id="nav" style="display: inline-block;">
         <li><a href="/">About</a></li>
         <li><a href="/">Blog</a></li>
         <li><a href="/">Portfolio</a></li>
@@ -31,9 +31,13 @@ center of the buzzing Central Florida Tech Community!
 ### The Ironing Board
 
 [Blog Post 4](/)
+
 [Day 3..2.1 GO!](/2014/09/24/Day-3-2-1-Go)
+
 [The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)
+
 [We Have Liftoff](/2014/09/22/We-Have-Liftoff)<img src="images/liftoff.png" alt="" width="100" height="160">
+
 
 ### Portfolio
 
