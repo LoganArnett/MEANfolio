@@ -5,10 +5,10 @@ layout: default
 
 <div id="navbar" style="display: inline;">
     <ul>
-        <li><a href="/">About</li>
-        <li><a href="/">Blog</li>
-        <li><a href="/">Portfolio</li>
-        <li><a href="/">Contact</li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/">Portfolio</a></li>
+        <li><a href="/">Contact</a></li>
     </ul>
 </div>
 
