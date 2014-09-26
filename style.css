@@ -4,9 +4,13 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    float: right;
+    
 }
 
 #nav li {
     display: inline;
+}
+
+#navbar-right {
+    float: right;
 }
