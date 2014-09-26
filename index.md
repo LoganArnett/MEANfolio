@@ -4,7 +4,7 @@ layout: default
 ### Logan Arnett
 
 <div id="navbar" >
-    <ul id="nav" style="display: inline-block;">
+    <ul id="nav">
         <li><a href="/">About</a></li>
         <li><a href="/">Blog</a></li>
         <li><a href="/">Portfolio</a></li>
