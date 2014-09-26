@@ -41,8 +41,8 @@ center of the buzzing Central Florida Tech Community!
 <p>[The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)</p></br>
 
 <img src="images/liftoff.png" alt="" width="150" height="230"></br>
-<p>[We Have Liftoff](/2014/09/22/We-Have-Liftoff)</p></br>
-</div>
+<p>[We Have Liftoff](/2014/09/22/We-Have-Liftoff)</p></div>
+
 
 
 <h3>Portfolio</h3>
