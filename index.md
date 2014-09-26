@@ -15,7 +15,7 @@ layout: default
     </div>
 </div>
 
-#### About Blog Portfolio Contact
+
 
 <p id ="banner"><img  src="images/paintbg.jpg" alt="images/wolvevo.png"></p>
 
