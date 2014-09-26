@@ -5,12 +5,14 @@ layout: default
 
 <div id="navbar" >
     <h3 id="mainname"> Logan Arnett</h3>
+    <div id="navbar-right">
     <ul id="nav">
         <li><a href="/">About</a></li>
         <li><a href="/">Blog</a></li>
         <li><a href="/">Portfolio</a></li>
         <li><a href="/">Contact</a></li>
     </ul>
+    </div>
 </div>
 
 #### About Blog Portfolio Contact
