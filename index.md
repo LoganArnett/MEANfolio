@@ -30,7 +30,6 @@ classates and for all of you to witness us evolve into Web Developers in the
 center of the buzzing Central Florida Tech Community!
 
 <div id="ironing-board">
-
 <h3>The Ironing Board</h3>
 
 <p>[Blog Post 4](/)<p></br>
@@ -43,7 +42,6 @@ center of the buzzing Central Florida Tech Community!
 
 <img src="images/liftoff.png" alt="" width="150" height="230"></br>
 <p>[We Have Liftoff](/2014/09/22/We-Have-Liftoff)</p></br>
-
 </div>
 
 
