@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Week 1 is in the Books
 
 As my first week at The Iron Yard comes to a close I am amazed at the amount

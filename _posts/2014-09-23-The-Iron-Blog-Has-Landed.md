@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## The Iron Blog Has Landed
 
 Jumping right in today, Day 2, and going through Git commands and Git Branching.
