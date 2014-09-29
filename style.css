@@ -23,18 +23,21 @@
 
 a:link {
     text-decoration: none;
-    color: #DD2339;
+    color: #3B71EC;
+    font-weight: bold;
 }
 
 a:visited {
     text-decoration: none;
-    color: #DD2339;
+    color: #3B71EC;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: none;
-    background-color: #DD2339;
+    background-color: #3B71EC;
     color: #FFF;
+    font-weight: bold;
 }
 
 #ironing-board {
