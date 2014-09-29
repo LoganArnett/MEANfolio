@@ -34,7 +34,9 @@ center of the buzzing Central Florida Tech Community!
 
 ###The Ironing Board
 
-[Blog Post 4](/)
+[Week 1 is in the Books](http://loganarnett.github.io/2014/09/26/Week-1-is-in-the-Books)
+
+[First Big Project](http://loganarnett.github.io/2014/09/25/First-Big-Project)
 
 <a href="http://loganarnett.github.io/2014/09/24/Day-3-2-1-Go"><img src="images/321go.jpg" alt="" width="300" height="400"></a>
 
