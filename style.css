@@ -61,3 +61,7 @@ ul li a:hover {
     background-color: #000;
     color: #FFF;
 }
+
+#navbar {
+    display: inline;
+}
