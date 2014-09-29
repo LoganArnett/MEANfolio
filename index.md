@@ -3,6 +3,18 @@ layout: default
 ---
 
 
+<div id="navbar" >
+    <p id="mainname"> Logan Arnett</p>
+    <div id="navbar-right">
+    <ul id="nav">
+        <li><a href="http://loganarnett.github.io/">About</a></li>
+        <li><a href="http://loganarnett.github.io/">Blog</a></li>
+        <li><a href="https://github.com/LoganArnett?tab=repositories">Portfolio</a></li>
+        <li><a href="http://loganarnett.github.io/">Contact</a></li>
+    </ul>
+    </div>
+</div>
+
 <p><br />
 <br />
 <br /></p>
