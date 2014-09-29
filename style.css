@@ -19,6 +19,8 @@
     margin-right: auto;
 }
 
+
+
 a:link {
     text-decoration: none;
     color: #000;
@@ -26,11 +28,13 @@ a:link {
 
 a:visited {
     text-decoration: none;
+    color: #000;
 }
 
 a:hover {
-    text-decoration: underline;
-    background-color: #99FF00;
+    text-decoration: capitalize;
+    background-color: #000;
+    color: #FFF;
 }
 
 #ironing-board {
