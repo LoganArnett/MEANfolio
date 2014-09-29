@@ -15,6 +15,8 @@ layout: default
     </div>
 </div>
 
+<img src="images/ferriswheel1.jpg" alt="" width="auto">
+
 # Welcome to The Iron Blog!
 This is where I will keep you all up to date about my web development
 adventures here at [The Iron Yard](http://theironyard.com/) Academy. As part
@@ -31,15 +33,15 @@ center of the buzzing Central Florida Tech Community!
 
 [Blog Post 4](/)
 
-<img src="images/321go.jpg" alt="" width="300" height="400">
+<a href="http://loganarnett.github.io/2014/09/24/Day-3-2-1-Go"><img src="images/321go.jpg" alt="" width="300" height="400"></a>
 
 [Day 3..2.1 GO!](/2014/09/24/Day-3-2-1-Go)
 
-<img src="images/ironman.jpg" alt="" width="300" height="400">
+<a href="http://loganarnett.github.io/2014/09/23/The-Iron-Blog-Has-Landed"><img src="images/ironman.jpg" alt="" width="300" height="400"></a>
 
 [The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)
 
-<img src="images/liftoff.png" alt="" width="300" height="400">
+<a href="http://loganarnett.github.io/2014/09/22/We-Have-Liftoff"><img src="images/liftoff.png" alt="" width="300" height="400"></a>
 
 [We Have Liftoff](/2014/09/22/We-Have-Liftoff)
 
