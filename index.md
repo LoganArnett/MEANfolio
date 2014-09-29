@@ -15,6 +15,9 @@ layout: default
     </div>
 </div>
 
+<br />
+<br />
+<br />
 <img src="images/ferriswheel1.jpg" alt="" width="auto">
 
 # Welcome to The Iron Blog!
