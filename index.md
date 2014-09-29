@@ -4,7 +4,7 @@ layout: default
 
 
 <div id="navbar" >
-    <p> id="mainname"> Logan Arnett</p>
+    <p id="mainname"> Logan Arnett</p>
     <div id="navbar-right">
     <ul id="nav">
         <li><a href="/">About</a></li>
