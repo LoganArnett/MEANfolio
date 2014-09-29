@@ -4,7 +4,7 @@ layout: default
 
 
 <div id="navbar" >
-    <h3 id="mainname"> Logan Arnett</h3>
+    <p id="mainname"> Logan Arnett</p>
     <div id="navbar-right">
     <ul id="nav">
         <li><a href="/">About</a></li>
@@ -14,8 +14,6 @@ layout: default
     </ul>
     </div>
 </div>
-
-<p id ="banner"><img  src="images/paintbg.jpg" alt="images/wolvevo.png"></p>
 
 # Welcome to The Iron Blog!
 This is where I will keep you all up to date about my web development
@@ -29,34 +27,33 @@ and Social Media pages. I look forward to sharing this journey with my amazing
 classates and for all of you to witness us evolve into Web Developers in the 
 center of the buzzing Central Florida Tech Community!
 
-<div id="ironing-board">
-<h3>The Ironing Board</h3>
+###The Ironing Board
 
-<p>[Blog Post 4](/)<p></br>
+[Blog Post 4](/)
 
 <img src="images/321go.jpg" alt="" width="150" height="230"></br>
-<p>[Day 3..2.1 GO!](/2014/09/24/Day-3-2-1-Go)</p></br>
+[Day 3..2.1 GO!](/2014/09/24/Day-3-2-1-Go)
 
 <img src="images/ironman.jpg" alt="" width="150" height="230"></br>
-<p>[The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)</p></br>
+[The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)
 
 <img src="images/liftoff.png" alt="" width="150" height="230"></br>
-<p>[We Have Liftoff](/2014/09/22/We-Have-Liftoff)</p>
-</div>
+[We Have Liftoff](/2014/09/22/We-Have-Liftoff)
 
 
 
-<h3>Portfolio</h3>
 
-<p><a href="https://github.com/LoganArnett/LoganArnett.github.io">LoganArnett.Github.io</a></p></br>
+###Portfolio
 
-<p><a href="/">Link to Github Repo 1</a></p></br>
+[LoganArnett.Github.io](https://github.com/LoganArnett/LoganArnett.github.io)
 
-<p><a href="/">Link to Github Repo 2</a></p></br>
+[TIY Assignments](https://github.com/LoganArnett/TIY-Assignments)
 
-<p><a href="/">Link to Coming Soon Image</a></p>
+[Etsydemo](https://github.com/LoganArnett/etsydemo)
 
-<h3>Get in Touch</h3>
+
+
+###Get in Touch
 
 * Name
 
