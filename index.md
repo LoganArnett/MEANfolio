@@ -7,10 +7,10 @@ layout: default
     <p id="mainname"> Logan Arnett</p>
     <div id="navbar-right">
     <ul id="nav">
-        <li><a href="/">About</a></li>
-        <li><a href="/">Blog</a></li>
-        <li><a href="/">Portfolio</a></li>
-        <li><a href="/">Contact</a></li>
+        <li><a href="http://loganarnett.github.io/">About</a></li>
+        <li><a href="http://loganarnett.github.io/">Blog</a></li>
+        <li><a href="https://github.com/LoganArnett?tab=repositories">Portfolio</a></li>
+        <li><a href="http://loganarnett.github.io/">Contact</a></li>
     </ul>
     </div>
 </div>
