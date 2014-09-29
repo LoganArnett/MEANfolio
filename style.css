@@ -21,19 +21,19 @@
 
 
 
-nav a:link {
+a:link {
     text-decoration: none;
-    color: #000;
+    color: #DD2339;
 }
 
-nav a:visited {
+a:visited {
     text-decoration: none;
-    color: #000;
+    color: #DD2339;
 }
 
-nav a:hover {
-    text-decoration: capitalize;
-    background-color: #000;
+a:hover {
+    text-decoration: none;
+    background-color: #DD2339;
     color: #FFF;
 }
 
@@ -41,4 +41,20 @@ nav a:hover {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+ul li a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
 }
