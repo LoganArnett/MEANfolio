@@ -1,3 +1,6 @@
+---
+layout: default
+---
 ## First Big Project
 
 Today we have turned in our rebuild of our original blog with just the bare
