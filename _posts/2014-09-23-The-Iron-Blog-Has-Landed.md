@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 ## The Iron Blog Has Landed

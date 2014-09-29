@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 ## Week 1 is in the Books
