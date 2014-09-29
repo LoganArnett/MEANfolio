@@ -6,7 +6,7 @@ layout: default
 <p><br />
 <br />
 <br /></p>
-<div id="banner"><img src="images/ferris1.jpg" alt="" width="auto"></div>
+<div id="banner"><img src="images/ferris1.jpg" alt="" width="100%"></div>
 
 # Welcome to The Iron Blog!
 This is where I will keep you all up to date about my web development
