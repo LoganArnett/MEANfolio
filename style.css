@@ -1,19 +1,5 @@
 /* style.css */
 
-#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 80px;
-}
-
-#nav li {
-    display: inline;
-    padding: 20px;
-}
-
-
 #banner {
     margin-left: auto;
     margin-right: auto;
@@ -70,3 +56,17 @@ div #navbar {
 #navbar-right {
     display: inline;
 }
+
+h3 {
+    margin: 0;
+    clear: right;
+    
+}
+
+header { width: 100%; }
+
+#mainname { float: left; }
+
+#nav{ float: right;}
+#nav ul { padding: 0; margin: 0; }
+#nav ul li {display: inline;}
