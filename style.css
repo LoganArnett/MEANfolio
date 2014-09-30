@@ -62,8 +62,9 @@ ul li a:hover {
     color: #FFF;
 }
 
-#navbar {
+div #navbar {
     display: inline;
+    background-color: #535353;
 }
 
 #navbar-right {
