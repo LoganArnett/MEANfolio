@@ -65,3 +65,7 @@ ul li a:hover {
 #navbar {
     display: inline;
 }
+
+#navbar-right {
+    display: inline;
+}
