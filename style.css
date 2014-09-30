@@ -34,17 +34,17 @@ a:hover {
 
 ul li a:link {
     text-decoration: none;
-    color: #3B71EC;
+    color: #FFF;
 }
 
 ul li a:visited {
     text-decoration: none;
-    color: #3B71EC;
+    color: #FFF;
 }
 
 ul li a:hover {
     text-decoration: none;
-    background-color: #000;
+    background-color: #FFF;
     color: #3B71EC;
 }
 
@@ -63,16 +63,21 @@ h3 {
     
 }
 
-header { width: 100%;
-       
+#head {
+    width: 100%;
+    position: absolute;
+    background: #3B71EC;
 }
 
 
 #mainname { float: left;
-            color: #3B71EC;
+            color: #FFF;
+            padding: 0;
+            margin: 0;
 }
 
 #nav{ float: right;
+     
 }
 #nav ul { padding: 0; margin: 0; }
 #nav ul li {display: inline;}
