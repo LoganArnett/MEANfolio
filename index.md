@@ -1,10 +1,7 @@
 ---
 layout: default
 ---
-
-
-<p><br />
-<br />
+<p>
 <br /></p>
 <div id="banner"><img src="images/ferris1.jpg" alt="" width="100%"></div>
 
