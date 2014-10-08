@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+</br>
+</br>
+</br>
+</br>
 ## First Big Project
 
 Today we have turned in our rebuild of our original blog with just the bare

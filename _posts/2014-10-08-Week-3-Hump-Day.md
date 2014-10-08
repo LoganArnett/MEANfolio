@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
+</br>
+</br>
+</br>
+</br>
 ## Week 3: Hump DAYYY!!!
 
 Today we are visited by another developer from [The Iron Yard](http://theironyard.com/) to
