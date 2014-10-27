@@ -118,7 +118,9 @@ header {
     background-size: contain;
 }
 h1#the-blog-and-random-thoughts-of-some-guy {
-    margin: 7% 0 4% 36%;
+    margin: 4% 0 4% 0;
+    text-align: center;
+    padding-top: 5%;
 }
 #container {
     width: 80%;
