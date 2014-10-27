@@ -76,7 +76,7 @@ div #navbar {
 #mainname h3 {
     margin: 0;
     clear: right;
-    padding: 4% 0 0 4%;
+    padding: 4% 0 4% 4%;
     
 }
 h3 {
@@ -100,8 +100,9 @@ h3 {
 }
 
         
-#nav{ float: right;
-     
+#nav{ 
+    float: right;
+    padding: 1%;
 }
 #nav ul { padding: 0; margin: 0; }
 #nav ul li {display: inline;}
