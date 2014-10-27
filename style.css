@@ -14,8 +14,9 @@ body {
 
 #mainname h3 a:hover {
     text-decoration: none;
-    color: #FFF;
+    color: #crimson;
     font-weight: bold;
+    background-color: #fff;
 }
 
 #banner {
@@ -61,7 +62,7 @@ ul li a:visited {
 ul li a:hover {
     text-decoration: none;
     background-color: #fff;
-    color: #crimson;
+    color: crimson;
 }
 
 div #navbar {
