@@ -14,7 +14,7 @@ body {
 
 #mainname h3 a:hover {
     text-decoration: none;
-    color: #crimson;
+    color: crimson;
     font-weight: bold;
     background-color: #fff;
 }
@@ -114,4 +114,11 @@ header {
     background: url("images/ferris1.jpg") red no-repeat fixed;
     height: 250px;
     background-size: contain;
+}
+h1#welcome-to-the-iron-blog {
+    margin: 7% 0 4% 36%;
+}
+#container {
+    width: 80%;
+    background-color: #ededed;
 }
