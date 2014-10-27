@@ -16,23 +16,23 @@ center of the buzzing Central Florida Tech Community!
 
 ###The Ironing Board
 
-<a href="http://loganarnett.github.io/2014/09/26/Week-1-is-in-the-Books"><img src="images/books.jpg" alt="" width="300" height="400"></a>
+<p id="post"><a href="http://loganarnett.github.io/2014/09/26/Week-1-is-in-the-Books"><img src="images/books.jpg" alt="" width="300" height="400"></a></p>
 
 [Week 1 is in the Books](http://loganarnett.github.io/2014/09/26/Week-1-is-in-the-Books)
 
-<a href="http://loganarnett.github.io/2014/09/25/First-Big-Project"><img src="images/dogproject.jpg" alt="" width="300" height="400"></a>
+<p id="post"><a href="http://loganarnett.github.io/2014/09/25/First-Big-Project"><img src="images/dogproject.jpg" alt="" width="300" height="400"></a></p>
 
 [First Big Project](http://loganarnett.github.io/2014/09/25/First-Big-Project)
 
-<a href="http://loganarnett.github.io/2014/09/24/Day-3-2-1-Go"><img src="images/321go.jpg" alt="" width="300" height="400"></a>
+<p id="post"><a href="http://loganarnett.github.io/2014/09/24/Day-3-2-1-Go"><img src="images/321go.jpg" alt="" width="300" height="400"></a></p>
 
 [Day 3..2.1 GO!](/2014/09/24/Day-3-2-1-Go)
 
-<a href="http://loganarnett.github.io/2014/09/23/The-Iron-Blog-Has-Landed"><img src="images/ironman.jpg" alt="" width="300" height="400"></a>
+<p id="post"><a href="http://loganarnett.github.io/2014/09/23/The-Iron-Blog-Has-Landed"><img src="images/ironman.jpg" alt="" width="300" height="400"></a></p>
 
 [The Iron Blog Has Landed](/2014/09/23/The-Iron-Blog-Has-Landed)
 
-<a href="http://loganarnett.github.io/2014/09/22/We-Have-Liftoff"><img src="images/liftoff.png" alt="" width="300" height="400"></a>
+<p id="post"><a href="http://loganarnett.github.io/2014/09/22/We-Have-Liftoff"><img src="images/liftoff.png" alt="" width="300" height="400"></a></p>
 
 [We Have Liftoff](/2014/09/22/We-Have-Liftoff)
 
