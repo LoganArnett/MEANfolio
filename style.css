@@ -139,3 +139,7 @@ p#post {
 h4 {
     text-align: center;
 }
+.content-image {
+  width: 60%;
+  height: auto;
+}
