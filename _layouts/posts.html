@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    {% include navbar.html %}
+    <body>
+    <div id="container">
+        {{content}}
+    </div>
+    {% if page.image %}
+      <img src="{{ page.image }}" class="content-image">
+    {% endif %}
+    </body>
+    {% include footer.html %}
+</html>
