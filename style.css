@@ -72,14 +72,14 @@ div #navbar {
 
 #navbar-right {
     display: inline;
-    
+
 }
 
 #mainname h3 {
     margin: 0;
     clear: right;
     padding: 4% 0 4% 4%;
-    
+
 }
 h3 {
     margin: 5% 0 5%;
@@ -102,8 +102,8 @@ h3 {
             margin: 0;
 }
 
-        
-#nav{ 
+
+#nav{
     float: right;
     padding: 1%;
 }
@@ -125,7 +125,8 @@ h1#the-blog-and-random-thoughts-of-some-guy {
 #container {
     width: 80%;
     background-color: #ededed;
-    margin: 0 auto;
+    margin: 3% auto;
+    padding-top: 5%;
 }
 p {
     padding: 0 20% 0 20%;
