@@ -82,8 +82,9 @@ div #navbar {
     
 }
 h3 {
-    margin: 5% 0 5% 45%;
+    margin: 5% 0 5%;
     clear: right;
+    text-align: center;
 }
 
 #head {
@@ -131,4 +132,7 @@ p {
 p#post {
     padding: 0% 39%;
     line-height: 1.5pc;
+}
+h4 {
+    text-align: center;
 }
