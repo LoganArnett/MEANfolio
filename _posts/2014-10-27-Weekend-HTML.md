@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: HTML and CSS Layouts
-image: "/images/timeline.png"
+image: /images/timeline.png
 ---
 
 This weekend was all HTML and CSS. It was also our first attempt at using
