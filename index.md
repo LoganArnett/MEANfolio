@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Welcome to The Iron Blog!
+# The Blog and Random Thoughts of Some Guy
 This is where I will keep you all up to date about my web development
 adventures here at [The Iron Yard](http://theironyard.com/) Academy. As part
 of the inaugural class for the [Orlando, FL](http://theironyard.com/locations/orlando/), location I
