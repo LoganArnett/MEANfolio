@@ -2,9 +2,6 @@
 body {
     margin: 0;
 }
-head {
-    width: 100%;
-}
 #mainname h3 a:link {
     text-decoration: none;
     color: #FFF;
@@ -83,7 +80,7 @@ h3 {
 }
 
 #head {
-    width: 98.7%;
+    width: 100%;
     position: absolute;
     background: #3B71EC;
     margin-left: auto;
