@@ -138,7 +138,7 @@ h1#the-blog-and-random-thoughts-of-some-guy {
     width: 80%;
     background-color: #ededed;
     margin: 3% auto;
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 p {
     padding: 0 20% 0 20%;
