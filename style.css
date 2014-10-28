@@ -115,7 +115,7 @@ header {
     margin-right: auto;
     background: url("images/paperback.jpg") white no-repeat fixed;
     height: 250px;
-    background-size: contain;
+    background-size: cover;
 }
 h1#the-blog-and-random-thoughts-of-some-guy {
     margin: 4% 0 4% 0;
