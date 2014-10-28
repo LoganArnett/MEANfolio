@@ -156,7 +156,8 @@ h5#section {
   text-align: center;
 }
 #container h4 {
-  text-align: none;
+  text-align: inherit;
+  margin-left: 23%;
 }
 form#inTouch input {
   display: block;
