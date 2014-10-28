@@ -57,5 +57,5 @@ center of the buzzing Central Florida Tech Community!
 
 <input type="tel" value="Phone">
 
-<textarea name="textarea" rows="10" cols="50">Leave Me A Message</textarea>
+<textarea name="textarea" rows="10" cols="30">Leave Me A Message</textarea>
 </form>
