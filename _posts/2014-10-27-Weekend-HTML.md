@@ -4,6 +4,7 @@ title: HTML and CSS Layouts
 image: /images/timeline.png
 ---
 ## HTML and CSS Layouts
+
 ##### 10/27/14
 
 This weekend was all HTML and CSS. It was also our first attempt at using
