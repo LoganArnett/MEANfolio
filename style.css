@@ -87,31 +87,23 @@ div #navbar {
     display: inline;
 
 }
-
-#mainname h3 {
-    margin: 0;
-    clear: right;
-    padding: 4% 0 4% 4%;
-}
 h3 {
     margin: 5% 0 5%;
     clear: right;
     text-align: center;
 }
-
 #head {
     width: 100%;
     position: absolute;
-    background: crimson;
+    background: black;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-#mainname { float: left;
-            color: #FFF;
-            padding: 0;
-            margin: 0;
+#mainname {
+    float: left;
+    color: #FFF;
+    padding: .5% 0 .5% 0;
+    margin: 0;
 }
 
 
