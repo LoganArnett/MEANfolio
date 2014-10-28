@@ -2,7 +2,6 @@
 layout: posts
 title: HTML and CSS Layouts
 image: /images/timeline.png
-date: 10/27/14
 ---
 ## HTML and CSS Layouts
 

@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Week 1 is in the Books
-date: 9/26/14
 ---
 
 ## Week 1 is in the Books

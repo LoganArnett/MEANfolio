@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: We Have Liftoff...!
-date: 9/22/14
 ---
 
 ## We Have Liftoff...!

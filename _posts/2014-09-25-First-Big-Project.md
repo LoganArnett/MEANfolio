@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: First Big Project
-date: 9/25/14
 ---
 
 ## First Big Project

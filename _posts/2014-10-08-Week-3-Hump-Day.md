@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Blogging with John Saddington
-date: 10/8/14
 ---
 
 ## Blogging with [@Saddington](https://twitter.com/saddington)
