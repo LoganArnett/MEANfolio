@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: posts
+title: The Blog has Landed
 ---
 
-</br>
-</br>
-</br>
-</br>
-## The Iron Blog Has Landed
+## The Blog Has Landed
+
+##### 9/23/14
 
 Jumping right in today, Day 2, and going through Git commands and Git Branching.
 Also, diving deeper into the usage of [Github](https://github.com/) and [Github
@@ -26,10 +25,10 @@ company, [The Indie Box](https://theindiebox.com/), and heard all about what the
 do and who they develop for. Their outlook on their target market is very unique
 with bringing the retro style games back and sending them directly to their
 doorsteps. This introduction has definitely given several of my classmates ideas
-on what they may want to do post-graduation. There are a few video game enthusaists
+on what they may want to do post-graduation. There are a few video game enthusiasts
 who would definitely enjoy making a living gaming and sharing that experience
 with the world. I wonder who we will all get to meet up with next?
 
 Have a wonderful day everyone!!!
 
-### Logan Out!
+#### Logan Out!

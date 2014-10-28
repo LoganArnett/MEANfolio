@@ -1,14 +1,11 @@
 ---
-layout: default
+layout: posts
+title: We Have Liftoff...!
 ---
 
-</br>
-</br>
-</br>
-</br>
 ## We Have Liftoff...!
 
-
+##### 9/22/14
 
 At [The Iron Yard](http://theironyard.com/) Academy in the
 inaugural class at the [Orlando,FL](http://theironyard.com/locations/orlando/)
@@ -20,7 +17,7 @@ CSS, and most of all Javascript.
 
 So far we have begun with extremely useful Project Management practices
 through the use of [Github](https://github.com/) and other tools. Some examples
-include [Basecamp](https://basecamp.com/), [HipChat](https://www.hipchat.com/), 
+include [Basecamp](https://basecamp.com/), [HipChat](https://www.hipchat.com/),
 and [Cloud 9](https://c9.io/). Today we have begun to delve into the command
 line tools and learning the basic git commands and git branching. I am looking
 forward to the evolution of this program from git, github, and learning markdown
@@ -38,4 +35,3 @@ I look forward to the week to come and all that lies ahead in the coming weeks.
 
 
 #### Logan Out!
-
