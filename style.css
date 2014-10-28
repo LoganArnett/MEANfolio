@@ -2,14 +2,26 @@
 body {
     margin: 0;
 }
+#mainname h3 {
+    margin: 0;
+    clear: right;
+    padding: 4% 0 4% 4%;
+}
+#mainname h3 a {
+    margin: 0;
+    clear: right;
+    padding: 4% 0 4% 4%;
+}
 #mainname h3 a:link {
     text-decoration: none;
     color: #FFF;
+    width: 5%
 }
 
 #mainname h3 a:visited {
     text-decoration: none;
     color: #FFF;
+    width: 5%
 }
 
 #mainname h3 a:hover {
@@ -17,6 +29,7 @@ body {
     color: crimson;
     font-weight: bold;
     background-color: #fff;
+    width: 5%
 }
 
 #banner {
@@ -79,7 +92,6 @@ div #navbar {
     margin: 0;
     clear: right;
     padding: 4% 0 4% 4%;
-
 }
 h3 {
     margin: 5% 0 5%;
