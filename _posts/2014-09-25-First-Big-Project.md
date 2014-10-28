@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: First Big Project
+date: 9/25/14
 ---
 
 ## First Big Project
@@ -15,7 +16,7 @@ rebuild of our blog all the way back from our initial commit from our first step
 of setting up our [Github Pages](https://pages.github.com/).
 
 Over the next few days I will begin to rebuild my blog and hope to customize it
-with some of the HTML and CSS that I know from before entering [The Iron Yard](theironyard.com) 
+with some of the HTML and CSS that I know from before entering [The Iron Yard](theironyard.com)
 program. This page will continue to update throughout the next few weeks as we
 continue to advance through different coding languages. I hope that you enjoy
 the final product.

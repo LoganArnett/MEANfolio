@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: The Blog has Landed
+date: 9/22/14
 ---
 
 ## The Blog Has Landed
