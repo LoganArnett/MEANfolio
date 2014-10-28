@@ -157,4 +157,8 @@ h2#html-and-css-layouts {
 }
 form#inTouch input {
   display: block;
+  margin: 0 auto 2% auto;
+}
+form#inTouch textarea {
+  margin: 0 auto 3% 40%;
 }
