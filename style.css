@@ -130,7 +130,7 @@ h1#the-blog-and-random-thoughts-of-some-guy {
     width: 80%;
     background-color: #ededed;
     margin: 3% auto;
-    padding-top: 5%; 
+    padding: 5% 0 2% 0;
 }
 p {
     padding: 0 20% 0 20%;
@@ -154,6 +154,9 @@ h5#section {
 }
 #container h2 {
   text-align: center;
+}
+#container h4 {
+  text-align: none;
 }
 form#inTouch input {
   display: block;
