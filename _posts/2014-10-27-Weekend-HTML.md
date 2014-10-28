@@ -11,9 +11,9 @@ oriented and gave us a few CSS tricks to add to our toolkit. Using the
 Font-Awesome characters was also a lot of fun.
 
 ```
-git log --oneline //Find the commit
+    git log --oneline //Find the commit
 
-git reset --hard <commit> //Reset the local master to that commit
+    git reset --hard <commit> //Reset the local master to that commit
 ```
 
 Have a wonderful day and here is a screen shot of the end result of the
