@@ -155,3 +155,6 @@ h5#section {
 h2#html-and-css-layouts {
   text-align: center;
 }
+form#inTouch input {
+  display: block;
+}
