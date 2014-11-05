@@ -159,10 +159,15 @@ h5#section {
   text-align: inherit;
   margin-left: 23%;
 }
-form#inTouch input {
-  display: block;
-  margin: 0 auto 2% auto;
+.oscar {
+  height: 200px;
+  weight: 200px;
 }
-form#inTouch textarea {
-  margin: 0 auto 3% 40%;
+.xfit {
+  height: 200px;
+  weight: 200px;
+}
+.eola {
+  height: 200px;
+  weight: 200px;
 }
