@@ -148,7 +148,7 @@ h5#section {
   margin-left: 23%;
 }
 
-header {
+#page-title {
     margin-left: auto;
     margin-right: auto;
     background: url("images/paperback.jpg") white no-repeat fixed;
@@ -156,7 +156,7 @@ header {
     background-size: cover;
     position: relative;
 }
-.page-header {
+#page-title .page-header {
   padding-bottom: 9px;
   border-bottom: 1px solid #eee;
   position: absolute;
