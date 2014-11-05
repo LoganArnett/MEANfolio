@@ -2,7 +2,7 @@
 body {
     margin: 0;
 }
-#mainname h3 {
+/* #mainname h3 {
     margin: 0;
     clear: right;
     padding: 4% 0 4% 4%;
@@ -30,7 +30,7 @@ body {
     font-weight: bold;
     background-color: #fff;
     width: 5%
-}
+} */
 
 #banner {
     margin-left: auto;
@@ -49,12 +49,12 @@ a:visited {
     font-weight: bold;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: none;
     background-color: #3B71EC;
     color: #FFF;
     font-weight: bold;
-}
+} */
 
 #ironing-board {
     width: 600px;
@@ -143,10 +143,6 @@ h5#section {
 #container h2 {
   text-align: center;
 }
-#container h4 {
-  text-align: inherit;
-  margin-left: 23%;
-}
 
 #page-title {
     margin-left: auto;
@@ -163,4 +159,39 @@ h5#section {
   top: 35%;
   right: 27%;
   text-align: center;
+}
+#projects a {
+  text-align: center;
+  display: block;
+  padding: 2ex;
+  width: 20%;
+  margin: 0 auto;
+}
+#posts h4 a {
+  text-align: center;
+  padding: 2ex;
+  width: 30%;
+  margin: 0 auto;
+  display: block;
+}
+.fa-3x {
+  padding: 0 1em;
+}
+.social {
+  text-align: center;
+}
+.social a {
+  color: lightgray;
+}
+a:hover .fa-twitter  {
+  color: lightblue;
+  background-color: none;
+}
+a:hover .fa-instagram  {
+  color: forestgreen;
+  background-color: none;
+}
+a:hover .fa-github  {
+  color: mediumpurple;
+  background-color: none;
 }
