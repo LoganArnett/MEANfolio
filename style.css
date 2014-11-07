@@ -147,18 +147,24 @@ h5#section {
 #page-title {
     margin-left: auto;
     margin-right: auto;
-    background: url("images/paperback.jpg") white no-repeat fixed;
+    background-color: rgba(0,230,10,0.5);
     height: 250px;
     background-size: cover;
-    position: relative;
 }
 #page-title .page-header {
-  padding-bottom: 9px;
+  padding-bottom: 2%;
+  padding-top: 7%;
   border-bottom: 1px solid #eee;
-  position: absolute;
-  top: 35%;
-  right: 27%;
+  margin: 0 auto;
   text-align: center;
+
+}
+.page-header h1  {
+  color: white;
+  font-size: 300%;
+}
+.page-header h1 small {
+  color: black;
 }
 #projects a {
   text-align: center;
