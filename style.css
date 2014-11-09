@@ -1,6 +1,7 @@
 /* style.css */
 body {
     margin: 0;
+    color: dimgray;
 }
 /* #mainname h3 {
     margin: 0;
@@ -35,6 +36,13 @@ body {
 #banner {
     margin-left: auto;
     margin-right: auto;
+}
+
+#about {
+  padding-bottom: 3%;
+  padding-top: 2%;
+  background-color: rgba(24,188,156,0.7);
+
 }
 
 a:link {
@@ -77,6 +85,16 @@ ul li a:hover {
     background-color: #fff;
     color: crimson;
 }
+.navbar-default {
+  background-color: #2C3C71;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+  color: lightskyblue;
+}
 
 div #navbar {
     display: inline;
@@ -115,10 +133,6 @@ h3 {
 #nav ul li {display: inline;}
 
 #container {
-    width: 80%;
-    background-color: #ededed;
-    margin: 3% auto;
-    padding: 5% 0 2% 0;
 }
 p {
     padding: 0 20% 0 20%;
@@ -147,7 +161,7 @@ h5#section {
 #page-title {
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0,230,10,0.5);
+    background-color: rgba(24,188,156,0.7);
     height: 250px;
     background-size: cover;
 }
@@ -174,6 +188,7 @@ h5#section {
   width: 20%;
   margin: 0 auto;
 }
+
 #posts h4 a {
   text-align: center;
   padding: 2ex;
@@ -184,11 +199,19 @@ h5#section {
 .fa-3x {
   padding: 0 1em;
 }
-.social {
+#social {
   text-align: center;
+  background-color: rgba(24,188,156,0.7);
+  padding-top: 1%;
 }
-.social a {
+#social h3 {
+  margin-top: 4%;
+}
+#social a {
   color: lightgray;
+}
+#social p {
+  margin: 0;
 }
 a:hover .fa-twitter  {
   color: lightblue;
@@ -201,4 +224,8 @@ a:hover .fa-instagram  {
 a:hover .fa-github  {
   color: mediumpurple;
   background-color: none;
+}
+footer {
+  background-color: #2C3C71;
+  color: white;
 }
