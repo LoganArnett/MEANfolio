@@ -76,15 +76,15 @@ body {
 }
 .page-header h1  {
   color: white;
-  font-size: 300%;
+  font-size: 400%;
 }
 .page-header h1 small {
   color: black;
   font-size: 50%;
 }
 .me {
-  width: 15%;
-  margin-top: 2%;
+  width: 20%;
+  margin-top: 4%;
   margin-bottom: 0;
 }
 
@@ -171,7 +171,7 @@ div #navbar {
 
 }
 h3 {
-    margin: 5% 0 5%;
+    margin: 7% 0 5%;
     clear: right;
     text-align: center;
     color: #313131;
@@ -257,7 +257,7 @@ div#posts {
   padding-top: 1%;
   position: relative;
   overflow: hidden;
-  min-height: 800px;
+  min-height: 600px;
 }
 #social .socialize {
   z-index: -1;
@@ -271,7 +271,7 @@ div#posts {
   margin-top: 4%;
 }
 #social a {
-  color: lightgray;
+  color: white;
 }
 #social p {
   margin: 0;
