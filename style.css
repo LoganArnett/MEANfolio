@@ -210,6 +210,15 @@ h5#section {
   margin: 0 auto;
   display: block;
 }
+#posts ul li a {
+  color: #e8e7e5;
+}
+#posts ul li a:hover {
+  color: green;
+}
+#posts ul li a:visited {
+  color: #e8e7e5;
+}
 .fa-3x {
   padding: 0 1em;
 }
