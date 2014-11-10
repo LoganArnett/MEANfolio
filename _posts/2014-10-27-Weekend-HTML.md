@@ -2,9 +2,6 @@
 layout: posts
 title: HTML and CSS Layouts
 image: /images/timeline.png
-excerpt: This weekend was all HTML and CSS. It was also our first attempt at using
-Javascript in the browser. We had several `onclick` features for
-excerpt_separator: ""
 ---
 ## HTML and CSS Layouts
 
