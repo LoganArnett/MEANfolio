@@ -1,8 +1,7 @@
 ---
 layout: posts
 title: Week 1 is in the Books
-excerpt: We had a guest speaker, Olivier Lacan from CodeSchool, on Friday and got to see
-their use of git and github as a team
+excerpt: We had a guest speaker, Olivier Lacan from CodeSchool, on Friday and got to see their use of git and github as a team
 ---
 
 ## Week 1 is in the Books

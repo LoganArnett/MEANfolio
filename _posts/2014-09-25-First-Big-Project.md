@@ -1,9 +1,7 @@
 ---
 layout: posts
 title: First Big Project
-excerpt: After rebuilding a 2nd time and continuing to customize our themes we have been
-assigned our first big project for the weekend. This project will be a complete
-rebuild of our blog all the way back from our initial commit
+excerpt: After rebuilding a 2nd time and continuing to customize our themes we have been assigned our first big project for the weekend. This project will be a complete rebuild of our blog all the way back from our initial commit
 ---
 
 ## First Big Project

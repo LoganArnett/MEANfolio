@@ -1,10 +1,7 @@
 ---
 layout: posts
 title: Blogging with John Saddington
-excerpt: discuss how blogging can be effective in developing our own personal brand.
-So as I am writing this blog post I am learning all of the aspects that I am
-missing to actually create meaningful content. Hopefully my posts will improve
-from here on out.
+excerpt: discuss how blogging can be effective in developing our own personal brand. So as I am writing this blog post I am learning all of the aspects that I am missing to actually create meaningful content. Hopefully my posts will improve from here on out.
 ---
 
 ## Blogging with [@Saddington](https://twitter.com/saddington)
