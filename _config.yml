@@ -5,7 +5,6 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 data_source: ./_data
 collections: null
-paginate: 5
 
 # Handling Reading
 safe:         false
