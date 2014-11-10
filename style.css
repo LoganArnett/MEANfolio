@@ -305,8 +305,11 @@ footer {
   width: 40%;
 }
 .ironBoard li a h3 {
-color: #313131;
-
+  color: #313131;
+  margin-bottom: 0;
+ }
+p.datePost {
+  margin-bottom: 5%;
 }
 @media (min-width: 992px){
    #page-title {
