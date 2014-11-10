@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Week 1 is in the Books
-date: 2014-9-26
+date: Sep. 26, 2014
 excerpt: We had a guest speaker, Olivier Lacan from CodeSchool, on Friday and got to see their use of git and github as a team
 ---
 
