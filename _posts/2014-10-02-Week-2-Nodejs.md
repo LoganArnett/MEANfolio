@@ -1,6 +1,9 @@
 ---
 layout: posts
 title: Node.js: Getting my hands dirty
+excerpt: Problems this week have included a 'String' Calculator, a Check Writing program,
+and a basic version of Conways Game of Life. All three of these problems have been
+a struggle to work through but have added critical thinking
 ---
 
 ## Getting My Hands Dirty with Node.js
@@ -14,7 +17,7 @@ which has proven to be a very helpful tool not just in the classroom but with
 real world application as well.
 
 Problems this week have included a 'String' Calculator, a Check Writing program,
-and a basic version of Conways Game of Life. All three of these problems have
+and a basic version of Conways Game of Life. All three of these problems have been
 a struggle to work through but have added critical thinking to our overall
 understanding of the `javascript` syntax. Really working to apply this new
 language has been tough for several members of the class as we continue to

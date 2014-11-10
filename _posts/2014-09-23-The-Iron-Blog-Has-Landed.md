@@ -1,6 +1,9 @@
 ---
 layout: posts
 title: The Blog has Landed
+excerpt: The assignments becoming more
+difficult have created a strong team environment both in the classroom but
+also outside of the class through our HipChat interface.
 ---
 
 ## The Blog Has Landed
@@ -14,7 +17,7 @@ blog and designed it through the [Jekyll](http://jekyllrb.com/) and themes and
 hosted it through Github Pages.
 
 Working through the git commands and pushes and pulls to and from Github through
-our online resource Cloud 9 has been demanding. The assignments becoming more
+our online IDE Cloud 9 has been demanding. The assignments becoming more
 difficult have created a strong team environment both in the classroom but
 also outside of the class through our HipChat interface. I believe
 developing this collaborative spirit early on in the program will benefit all

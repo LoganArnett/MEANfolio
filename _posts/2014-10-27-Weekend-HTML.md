@@ -2,6 +2,9 @@
 layout: posts
 title: HTML and CSS Layouts
 image: /images/timeline.png
+excerpt: The Timeline page was mostly design
+oriented and gave us a few CSS tricks to add to our toolkit. Using the
+Font-Awesome characters was also a lot of fun.
 ---
 
 ## HTML and CSS Layouts
