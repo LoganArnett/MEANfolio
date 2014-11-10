@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Node.js: Getting my hands dirty
+title: Getting my hands dirty with Node
 posted: Oct. 2, 2014
 excerpt: This week has been all `javascript` all the time. We have been focusing heavily on Node.js and working through 'Strings', Numbers, Arrays[], Functions, and a lot more. Most of our problems have been geared towards TDD(Test Driven Development)
 ---
