@@ -2,11 +2,10 @@
 layout: posts
 title: Node.js: Getting my hands dirty
 posted: Oct. 2, 2014
-excerpt: Problems this week have included a 'String' Calculator, a Check Writing program, and a basic version of Conways Game of Life.
-
+excerpt: This week has been all `javascript` all the time. We have been focusing heavily on Node.js and working through 'Strings', Numbers, Arrays[], Functions, and a lot more. Most of our problems have been geared towards TDD(Test Driven Development)
 ---
 
-## Getting My Hands Dirty with Node.js
+## Getting My Hands Dirty with Nodejs
 
 ##### 10/2/14
 
