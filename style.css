@@ -17,7 +17,7 @@
     */
 body {
     margin: 0;
-    color: dimgray;
+    color: #777777;
 }
 /* #mainname h3 {
     margin: 0;
@@ -199,13 +199,8 @@ h5#section {
   text-align: center;
 }
 
-
-#projects a {
-  text-align: center;
-  display: block;
-  padding: 2ex;
-  width: 20%;
-  margin: 0 auto;
+ #projects {
+  padding-bottom: 10ex;
 }
 
 #posts h4 a {
@@ -259,9 +254,39 @@ footer {
   display: inline;
   padding: 1% 2%;
 }
+.portfolio {
+  padding: 1% 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.surf {
+  width: 20%;
+  display: inline;
+  padding: 1.5%;
+  padding-bottom: 3%;
+}
+.surf.port-left-top {
+  border-radius: 2em 8em 2em 8em;
+}
+.surf.port-left-bottom {
+  border-radius: 8em 2em 8em 2em;
+}
+.surf.port-right-top {
+  border-radius: 8em 2em 8em 2em;
+}
+.surf.port-right-bottom {
+  border-radius: 2em 8em 2em 8em;
+}
+.surf.port-mid-top {
+  border-radius: 8em 8em 2em 2em;
+}
+.surf.port-mid-bottom {
+  border-radius: 2em 2em 8em 8em;
+}
+
 
 @media (min-width: 992px){
    #page-title {
-     min-height: 400px;
+     min-height: 600px;
    }
 }
