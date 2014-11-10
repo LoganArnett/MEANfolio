@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Node.js: Getting my hands dirty
+date: 2014-10-02
 excerpt: Problems this week have included a 'String' Calculator, a Check Writing program, and a basic version of Conways Game of Life. All three of these problems have been a struggle to work through but have added critical thinking
 ---
 

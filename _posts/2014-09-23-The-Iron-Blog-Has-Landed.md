@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: The Blog has Landed
+date: 2014-9-23
 excerpt: The assignments becoming more difficult have created a strong team environment both in the classroom but also outside of the class through our HipChat interface.
 ---
 
