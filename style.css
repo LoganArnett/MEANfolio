@@ -1,19 +1,20 @@
 /* LoganArnett.com style.css
 
    Colors:
-    -Red Pastel: #f4858e
-    -Green Pastel: #bfe2ca
-    -Blue Pastel: #a6daef
-    -Light Blue/Gray Pastel: #d0e2ec
-    -Yellow Pastel: #fed88f
-    -Black Pastel: #313131
-    -Dark Gray Pastel: #777777
-    -Purple Pastel: #bfb1d5
-    -Light Green Pastel: #adddcf
-    -Light Blue Pastel: #abe1fd
-    -Orange Pastel: #fed1be
-    -Dark Yellow Pastel: #f0e0a2
-    -Light Gray: #e8e7e5
+    -Red Pastel: #f4858e, rgba(244, 133, 142, 1)
+    -Green Pastel: #bfe2ca, rgba(191, 226, 202, 1)
+    -Blue Pastel: #a6daef, rgba(166, 218, 239, 1)
+    -Light Blue/Gray Pastel: #d0e2ec, rgba(208, 226, 236, 1)
+    -Yellow Pastel: #fed88f, rgba(254, 216, 143, 1)
+    -Black Pastel: #313131, rgba(49, 49, 49, 1)
+    -Dark Gray Pastel: #777777, rgba(119, 119, 119, 1)
+    -Purple Pastel: #bfb1d5, rgba(191, 177, 213, 1)
+    -Light Green Pastel: #adddcf, rgba(173, 221, 207, 1)
+    -Light Blue Pastel: #abe1fd, rgba(171, 225, 253, 1)
+    -Orange Pastel: #fed1be, rgba(254, 209, 190, 1)
+    -Dark Yellow Pastel: #f0e0a2, rgba(240, 224, 162, 1)
+    -Light Gray: #e8e7e5, rgba(232, 231, 229, 1)
+    -Purple New: #C8BDF4, rgba(200, 189, 244, 1)
     */
 body {
     margin: 0;
@@ -51,10 +52,11 @@ body {
 #page-title {
     margin-left: auto;
     margin-right: auto;
-    background-color: #abe1fd;    /* rgba(24,188,156,0.7); */
+    background-color: rgba(171, 225, 253, 0.7);  /*#abe1fd; rgba(24,188,156,0.7); */
     height: 250px;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 #page-title .page-header {
   border-bottom: none;
@@ -63,6 +65,14 @@ body {
   top: 10%;
   left: 10%;
   right: 10%;
+}
+#page-title .head-img {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .page-header h1  {
   color: white;
@@ -86,7 +96,19 @@ body {
 #about {
   padding-bottom: 3%;
   padding-top: 2%;
-  background-color: #C8BDF4; /* rgba(24,188,156,0.7); */
+  background-color: rgba(200, 189, 244, 0.7); /*#C8BDF4;  rgba(24,188,156,0.7); */
+  position: relative;
+  overflow: hidden;
+}
+#about .backImage {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+
 }
 
 #ironing-board {
@@ -231,8 +253,19 @@ div#posts {
 }
 #social {
   text-align: center;
-  background-color: #b1dfd5;/*rgba(24,188,156,0.7);*/
+  background-color: rgba(173, 221, 207, 0.7);/*rgba(24,188,156,0.7);*/
   padding-top: 1%;
+  position: relative;
+  overflow: hidden;
+  min-height: 800px;
+}
+#social .socialize {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 #social h3 {
   margin-top: 4%;
