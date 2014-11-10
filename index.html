@@ -9,7 +9,7 @@ layout: default
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-      <p class="datePost">{{ posts.date}}</p>
+      <p class="datePost">{{ post.posted }}</p>
         {{ post.excerpt }}
     </li>
   {% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: HTML and CSS Layouts
-date: Oct. 27, 2014
+posted: Oct. 27, 2014
 image: /images/timeline.png
 excerpt: The Timeline page was mostly design oriented and gave us a few CSS tricks to add to our toolkit. Using the Font-Awesome characters was also a lot of fun.
 ---

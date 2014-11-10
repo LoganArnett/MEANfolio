@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: We Have Liftoff...!
-date: Sep. 22, 2014
+posted: Sep. 22, 2014
 excerpt: Today we have begun to delve into the command line tools and learning the basic git commands and git branching. I am looking forward to the evolution
 ---
 
