@@ -187,6 +187,8 @@ p.post {
 }
 h4 {
     text-align: center;
+    color: #777777;
+    margin-top: 1%;
 }
 .content-image {
   width: 60%;
