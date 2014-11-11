@@ -252,7 +252,7 @@ div#posts {
   margin: 0;
 }
 a:hover .fa-twitter  {
-  color: lightblue;
+  color: #a6daef;
   background-color: none;
 }
 a:hover .fa-instagram  {
@@ -261,6 +261,10 @@ a:hover .fa-instagram  {
 }
 a:hover .fa-github  {
   color: mediumpurple;
+  background-color: none;
+}
+a:hover .fa-linkedin  {
+  color: navy;
   background-color: none;
 }
 footer {
