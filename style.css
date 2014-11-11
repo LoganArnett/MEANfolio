@@ -16,44 +16,19 @@
     -Light Gray: #e8e7e5, rgba(232, 231, 229, 1)
     -Purple New: #C8BDF4, rgba(200, 189, 244, 1)
     */
+
+
+
+
 body {
     margin: 0;
     color: #777777;
 }
-/* #mainname h3 {
-    margin: 0;
-    clear: right;
-    padding: 4% 0 4% 4%;
-}
-#mainname h3 a {
-    margin: 0;
-    clear: right;
-    padding: 4% 0 4% 4%;
-}
-#mainname h3 a:link {
-    text-decoration: none;
-    color: #FFF;
-    width: 5%
-}
-
-#mainname h3 a:visited {
-    text-decoration: none;
-    color: #FFF;
-    width: 5%
-}
-
-#mainname h3 a:hover {
-    text-decoration: none;
-    color: crimson;
-    font-weight: bold;
-    background-color: #fff;
-    width: 5%
-} */
 #page-title {
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(171, 225, 253, 0.7);  /*#abe1fd; rgba(24,188,156,0.7); */
-    height: 250px;
+    min-height: 650px;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -106,7 +81,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 108%;
 
 
 }
@@ -347,9 +322,25 @@ footer {
  }
 p.datePost {
   margin-bottom: 5%;
-}
-@media (min-width: 992px){
+ }
+@media (max-width: 1200px){
    #page-title {
-     min-height: 600px;
+     min-height: 500px;
+   }
+   #about .backImage {
+     width: 130%;
+   }
+}
+@media (max-width: 992px){
+   #about .backImage {
+     height: 100%;
+   }
+   p {
+     padding: 0;
+   }
+}
+@media (max-width: 768px){
+   #page-title {
+     min-height: 300px;
    }
 }
