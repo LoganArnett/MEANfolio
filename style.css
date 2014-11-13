@@ -341,6 +341,9 @@ footer {
 p.datePost {
   margin-bottom: 5%;
  }
+ .socialFoot {
+   width: 80%;
+ }
 @media (max-width: 1200px){
    #page-title {
      min-height: 500px;
