@@ -275,12 +275,17 @@ footer {
   width: 20%;
 }
 .aboutImages {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 .aboutImages img {
   display: inline;
   padding: 1% 2%;
+}
+.port {
+  width: 80%;
+  margin: 0 auto;
 }
 .portfolio {
   padding: 1% 0;
@@ -334,6 +339,9 @@ p.datePost {
    #about .backImage {
      width: 130%;
    }
+   .page-header h1 {
+     font-size: 350%;
+   }
 }
 @media (max-width: 992px){
    #about .backImage {
@@ -342,9 +350,23 @@ p.datePost {
    p {
      padding: 0;
    }
+   .page-header h1 {
+     font-size: 300%;
+   }
 }
 @media (max-width: 768px){
    #page-title {
      min-height: 300px;
+   }
+   .page-header h1 {
+     font-size: 250%;
+   }
+}
+@media (max-width: 480px){
+   #page-title {
+     min-height: 300px;
+   }
+   .page-header h1 {
+     font-size: 200%;
    }
 }
