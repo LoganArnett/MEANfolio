@@ -293,28 +293,37 @@ footer {
   margin-left: auto;
 }
 .surf {
-  width: 20%;
   display: inline;
   padding: 1.5%;
   padding-bottom: 3%;
 }
-.surf.port-left-top {
+.topL, .botR {
   border-radius: 2em 8em 2em 8em;
 }
-.surf.port-left-bottom {
-  border-radius: 8em 2em 8em 2em;
-}
-.surf.port-right-top {
-  border-radius: 8em 2em 8em 2em;
-}
-.surf.port-right-bottom {
-  border-radius: 2em 8em 2em 8em;
-}
-.surf.port-mid-top {
+.topC {
   border-radius: 8em 8em 2em 2em;
 }
-.surf.port-mid-bottom {
+.topR, .botL {
+  border-radius: 8em 2em 8em 2em;
+}
+.botC {
   border-radius: 2em 2em 8em 8em;
+}
+
+.surf.port-left-top, .surf.port-right-bottom  {
+  border-radius: 2em 8em 2em 8em;
+}
+.surf.port-left-bottom, .surf.port-right-top {
+  border-radius: 8em 2em 8em 2em;
+}
+.surf.port-center-top {
+  border-radius: 8em 8em 2em 2em;
+}
+.surf.port-center-bottom {
+  border-radius: 2em 2em 8em 8em;
+}
+.caption {
+  text-align: center;
 }
 .ironBoard {
   list-style-type: none;
