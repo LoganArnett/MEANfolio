@@ -281,7 +281,8 @@ footer {
 }
 .aboutImages img {
   display: inline;
-  padding: 1% 2%;
+  padding: 2% 14%;
+  width: 100%;
 }
 .port {
   width: 80%;
