@@ -346,10 +346,8 @@ p.datePost {
    margin: 0 auto;
  }
 .aboutL, .aboutC, .aboutR {
-  width: 70%;
-  height: 70%;
   margin: 0 auto;
-  outline: 1px solid lightgray;
+  padding: 0 2%;
 }
 @media (max-width: 1200px){
    #page-title {
