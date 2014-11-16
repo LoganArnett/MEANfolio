@@ -251,19 +251,19 @@ div#posts {
 #social p {
   margin: 0;
 }
-a:hover .fa-twitter, .fa-twitter:hover {
+a:hover .fa-twitter, .navbar-default .navbar-nav > li > a.fa-twitter:hover {
   color: #a6daef;
   background-color: none;
 }
-a:hover .fa-instagram, .fa-instagram:hover {
+a:hover .fa-instagram, .navbar-default .navbar-nav > li > a.fa-instagram:hover {
   color: forestgreen;
   background-color: none;
 }
-a:hover .fa-github, .fa-github:hover   {
+a:hover .fa-github, .navbar-default .navbar-nav > li > a.fa-github:hover   {
   color: mediumpurple;
   background-color: none;
 }
-a:hover .fa-linkedin, .fa-linkedin:hover   {
+a:hover .fa-linkedin, .navbar-default .navbar-nav > li > a.fa-linkedin:hover   {
   color: navy;
   background-color: none;
 }
