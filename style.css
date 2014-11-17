@@ -386,3 +386,17 @@ p.datePost {
      font-size: 200%;
    }
 }
+@media (max-width: 480px){
+   #page-title {
+     min-height: 250px;
+   }
+   .page-header h1 {
+     font-size: 173%;
+   }
+   h3 {
+     font-size: 15pt;
+   }
+   h4 {
+     font-size: 11px;
+   }
+}
