@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: jQuery: Image Slider Fun
+title: jQuery Image Slider Fun
 posted: Nov. 12, 2014
 excerpt: Our first big project with jQuery was to build an interactive full-width image slider. This project brought up a lot of challenges but the finished product was excellent. It was a lot of fun to see it all come together in the end.
 ---
