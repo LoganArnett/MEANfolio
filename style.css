@@ -397,10 +397,18 @@ p.datePost {
      font-size: 15pt;
    }
    h4 {
-     font-size: 11px;
+     font-size: 12pt;
    }
    .me {
      width: 34%;
      margin-top: 0%;
      margin-bottom: 0;
     }
+    div#posts {
+    width: 100%;
+    padding: 0 1%;
+  }
+  * {
+    font-size: 11pt;
+  }
+}
