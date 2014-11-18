@@ -430,4 +430,7 @@ p.datePost {
   #projects.container-fluid {
     padding: 0;
   }
+  .col-xs-12 {
+    padding: 0;
+  }
 }
