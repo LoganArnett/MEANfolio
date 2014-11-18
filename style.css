@@ -411,4 +411,23 @@ p.datePost {
   * {
     font-size: 11pt;
   }
+  #about * {
+    color: white;
+  }
+  #social {
+    min-height: 200px;
+  }
+  .fa-5x {
+    font-size: 3em;
+    margin-top: 70%;
+  }
+  .aboutImages {
+    display: none;
+  }
+  .thumbnail {
+    display: none;
+  }
+  #projects .container-fluid {
+    padding: 0;
+  }
 }
