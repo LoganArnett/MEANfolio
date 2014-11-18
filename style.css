@@ -427,7 +427,7 @@ p.datePost {
   .thumbnail {
     display: none;
   }
-  #projects .container-fluid {
+  #projects.container-fluid {
     padding: 0;
   }
 }
