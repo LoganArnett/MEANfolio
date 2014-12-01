@@ -234,6 +234,7 @@ div#posts {
   position: relative;
   overflow: hidden;
   height: 100vh;
+  width: 100%;
 }
 #social .socialize {
   z-index: -1;
