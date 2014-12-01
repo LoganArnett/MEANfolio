@@ -28,7 +28,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(171, 225, 253, 0.7);  /*#abe1fd; rgba(24,188,156,0.7); */
-    min-height: 650px;
+    height: 100vh;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -74,6 +74,7 @@ body {
   background-color: rgba(200, 189, 244, 0.7); /*#C8BDF4;  rgba(24,188,156,0.7); */
   position: relative;
   overflow: hidden;
+  height: 100vh;
 }
 #about .backImage {
   z-index: -1;
@@ -167,11 +168,12 @@ h3 {
     float: right;
     padding: 1%;
 }
-#nav ul { padding: 0; margin: 0; }
-#nav ul li {display: inline;}
-
-#container {
-}
+#nav ul {
+   padding: 0; margin: 0;
+   }
+#nav ul li {
+  display: inline;
+  }
 p {
     padding: 0 20% 0 20%;
     line-height: 1.5pc;
@@ -200,6 +202,7 @@ h5#section {
 
  #projects {
   padding-bottom: 10ex;
+  height: 100vh;
 }
 div#posts {
   width: 50%;
@@ -230,7 +233,7 @@ div#posts {
   padding-top: 1%;
   position: relative;
   overflow: hidden;
-  min-height: 600px;
+  height: 100vh;
 }
 #social .socialize {
   z-index: -1;
