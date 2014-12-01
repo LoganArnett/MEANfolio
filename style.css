@@ -272,6 +272,7 @@ a:hover .fa-linkedin, .navbar-default .navbar-nav > li > a.fa-linkedin:hover   {
 footer {
   background-color: #313131;
   color: white;
+  text-align: center;
 }
 .oscar, .xfit, .eola {
   width: 20%;
