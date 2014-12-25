@@ -2,7 +2,7 @@
 
 angular.module('slider', ['ngAnimate', 'ngTouch'])
   .config(function($interpolateProvider){
-    $interpolateProvider.startSymbol('}}').endSymbol('{{')
+    $interpolateProvider.startSymbol('{[').endSymbol(']}')
   })
   .controller('MainCtrl', function () {
     var self = this;
