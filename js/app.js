@@ -25,12 +25,12 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
     return this.currentIndex === index;
   };
 
-  this.nextSlide = function () {
+  this.prevSlide = function () {
     this.direction = 'left';
     this.currentIndex = (this.currentIndex < this.slides.length - 1) ? ++this.currentIndex : 0;
   };
 
-  this.prevSlide = function () {
+  this.nextSlide = function () {
     this.direction = 'right';
     this.currentIndex = (this.currentIndex > 0) ? --this.currentIndex : this.slides.length - 1;
   };
