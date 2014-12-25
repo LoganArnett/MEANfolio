@@ -48,29 +48,25 @@ layout: default
 </div>
 
 <div id="projects" class="container-fluid portfolio-buttons" >
-<h3>Projects</h3>
-    <div class="container slider" ng-controller="MainCtrl as app">
+  <h3>Projects</h3>
+    <div class="container slider">
       <img ng-repeat="slide in app.slides" class="slide slide-animation nonDraggableImage img-responsive"
       ng-swipe-right="app.nextSlide()" ng-swipe-left="app.prevSlide()"
-      ng-hide="app.isCurrentSlideIndex($index) === false" ng-src="images/activ8.png">
+      ng-hide="app.isCurrentSlideIndex($index) === false" ng-src="{{slide.image}}">
 
-      <a class="arrow prev glyphicon glyphicon-chevron-left" ng-click="app.nextSlide()"></a>
-      <a class="arrow next glyphicon glyphicon-chevron-right" ng-click="app.prevSlide()"></a>
-      <nav class="nav-slider">
+      <a class="arrow prev glyphicon glyphicon-chevron-left"  ng-click="app.nextSlide()"></a>
+      <a class="arrow next glyphicon glyphicon-chevron-right"  ng-click="app.prevSlide()"></a>
+      <nav class="nav">
         <div class="wrapper">
           <ul class="dots">
             <li class="dot" ng-repeat="slide in app.slides">
-              <a ng-class="{'active':app.isCurrentSlideIndex($index)}"
+              <a  ng-class="{'active':app.isCurrentSlideIndex($index)}"
               ng-click="app.setCurrentSlideIndex($index);">{{slide.description}}</a></li>
             </ul>
           </div>
         </nav>
-        <div ng-repeat="slider in app.slides">
-          <img ng-src="{{slider.pic}}">
-          <p>{{slider.pic}}</p>
-        </div>
-      </div>
-  </div>
+    </div>
+</div>
  <!-- <div class="row col-xs-12">
    <div class="port">
     <div class="col-xs-4">
