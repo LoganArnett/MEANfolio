@@ -21,15 +21,14 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
     return this.currentIndex === index;
   };
 
-  this.prevSlide = function () {
+  this.nextSlide = function () {
     this.direction = 'left';
     this.currentIndex = (this.currentIndex < this.slides.length - 1) ? ++this.currentIndex : 0;
   };
 
-  this.nextSlide = function () {
+  this.prevSlide = function () {
     this.direction = 'right';
     this.currentIndex = (this.currentIndex > 0) ? --this.currentIndex : this.slides.length - 1;
-    console.log(this.slides[0].image);
   };
 })
 .animation('.slide-animation', function () {
