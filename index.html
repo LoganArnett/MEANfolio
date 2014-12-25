@@ -47,9 +47,9 @@ layout: default
   </div>
 </div>
 
-<div id="projects" class="container-fluid portfolio-buttons" ng-controller="MainCtrl as app">
+<div id="projects" class="container-fluid portfolio-buttons" >
 <h3>Projects</h3>
-    <div class="container slider">
+    <div class="container slider" ng-controller="MainCtrl as app">
       <p>{{app.slides}}</p>
       <img ng-repeat="slide in app.slides" class="slide slide-animation nonDraggableImage img-responsive"
       ng-swipe-right="app.nextSlide()" ng-swipe-left="app.prevSlide()"
