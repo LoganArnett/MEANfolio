@@ -4,10 +4,10 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
     .controller('MainCtrl', function () {
       var self = this;
         this.slides = [
-            {image: 'images/activ8', description: 'Image 00'},
-            {image: 'images/vertical', description: 'Image 01'},
-            {image: 'images/surf', description: 'Image 02'},
-            {image: 'images/iron', description: 'Image 03'}
+            {image: 'images/activ8.png', description: 'Image 00'},
+            {image: 'images/vertical.png', description: 'Image 01'},
+            {image: 'images/surf.png', description: 'Image 02'},
+            {image: 'images/iron.png', description: 'Image 03'}
         ];
 
         this.direction = 'left';
