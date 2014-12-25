@@ -2,13 +2,14 @@
 
 angular.module('slider', ['ngAnimate', 'ngTouch'])
 .controller('MainCtrl', function () {
-  this.slides = [
-  { image: 'images/activ8.png', description: 'Image 00'},
-  { image: 'images/vertical.png', description: 'Image 01'},
-  { image: 'images/surf.png', description: 'Image 02'},
-  { image: 'images/iron.png', description: 'Image 03'}
-  ];
 
+  this.slides = [
+  {image: 'images/activ8.png', description: 'Image 00'},
+  {image: 'images/vertical.png', description: 'Image 01'},
+  {image: 'images/surf.png', description: 'Image 02'},
+  {image: 'images/iron.png', description: 'Image 03'}
+  ];
+  console.log(this.slides)
   this.direction = 'left';
   this.currentIndex = 0;
 
@@ -29,7 +30,7 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   this.nextSlide = function () {
     this.direction = 'right';
     this.currentIndex = (this.currentIndex > 0) ? --this.currentIndex : this.slides.length - 1;
-    console.log(this.slides);
+    console.log(this.slides[0].image);
   };
 })
 .animation('.slide-animation', function () {
