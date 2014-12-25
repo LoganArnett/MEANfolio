@@ -478,7 +478,7 @@ NAV
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background: color: rgba(255, 10, 55, 0.4);
+  background: rgba(255, 10, 55, 0.4);
   border: 1px solid transparent;
   outline: none;
   -webkit-box-shadow: none;
@@ -493,7 +493,7 @@ NAV
 }
 
 .dots .dot a.active {
-  border-color: color: rgba(255, 10, 55, 1);
+  border-color: rgba(255, 10, 55, 1);
   background-color: transparent;
 }
 
