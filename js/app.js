@@ -1,16 +1,19 @@
 'use strict'
 
 angular.module('slider', ['ngAnimate', 'ngTouch'])
-.controller('MainCtrl', function () {
-  var self = this;
-  self.slides = [
-  {image: 'images/activ8.png', description: 'Image 00'},
-  {image: 'images/vertical.png', description: 'Image 01'},
-  {image: 'images/surf.png', description: 'Image 02'},
-  {image: 'images/iron.png', description: 'Image 03'}
-  ];
-  this.direction = 'left';
-  this.currentIndex = 0;
+  .config(function($interpolateProvider){
+    $interpolateProvider.startSymbol('}}').endSymbol('{{')
+  })
+  .controller('MainCtrl', function () {
+    var self = this;
+    self.slides = [
+    {image: 'images/activ8.png', description: 'Image 00'},
+    {image: 'images/vertical.png', description: 'Image 01'},
+    {image: 'images/surf.png', description: 'Image 02'},
+    {image: 'images/iron.png', description: 'Image 03'}
+    ];
+    this.direction = 'left';
+    this.currentIndex = 0;
 
   this.setCurrentSlideIndex = function (index) {
     this.direction = (index > this.currentIndex) ? 'left' : 'right';
