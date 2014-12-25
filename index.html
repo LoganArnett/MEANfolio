@@ -52,7 +52,7 @@ layout: default
     <div class="container slider">
       <img ng-repeat="slide in app.slides" class="slide slide-animation nonDraggableImage img-responsive"
       ng-swipe-right="app.nextSlide()" ng-swipe-left="app.prevSlide()"
-      ng-hide="app.isCurrentSlideIndex($index) === false" ng-src="{{slide.image}}">
+       ng-src="{{slide.image}}">
 
       <a class="arrow prev glyphicon glyphicon-chevron-left"  ng-click="app.nextSlide()"></a>
       <a class="arrow next glyphicon glyphicon-chevron-right"  ng-click="app.prevSlide()"></a>
