@@ -65,6 +65,10 @@ layout: default
             </ul>
           </div>
         </nav>
+        <div ng-repeat="slider in app.slides">
+          <img ng-src="{{slider.pic}}">
+          <p>{{slider.pic}}</p>
+        </div>
       </div>
   </div>
  <!-- <div class="row col-xs-12">
