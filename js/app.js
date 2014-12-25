@@ -9,7 +9,6 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   {image: 'images/surf.png', description: 'Image 02'},
   {image: 'images/iron.png', description: 'Image 03'}
   ];
-  console.log(this.slides)
   this.direction = 'left';
   this.currentIndex = 0;
 
