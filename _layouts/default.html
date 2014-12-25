@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="slider">
     {% include head.html %}
     {% include navbar.html %}
-    <div id="container">
+    <div id="container" ng-controller="MainCtrl as app">
         {{content}}
     </div>
     {% include footer.html %}
@@ -23,4 +23,8 @@
       });
     });
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-touch.min.js"></script>
+    <script src="js/app.js"></script>
 </html>

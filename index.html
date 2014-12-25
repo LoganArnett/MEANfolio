@@ -49,7 +49,26 @@ layout: default
 
 <div id="projects" class="container-fluid portfolio-buttons">
 <h3>Projects</h3>
- <div class="row col-xs-12">
+  <div class="row col-xs-12">
+    <div class="container slider">
+      <img ng-repeat="slide in app.slides" class="slide slide-animation nonDraggableImage img-responsive"
+      ng-swipe-right="app.nextSlide()" ng-swipe-left="app.prevSlide()"
+      ng-hide="app.isCurrentSlideIndex($index) === false" ng-src="{{slide.image}}">
+
+      <a class="arrow prev glyphicon glyphicon-chevron-left" href="#" ng-click="app.nextSlide()"></a>
+      <a class="arrow next glyphicon glyphicon-chevron-right" href="#" ng-click="app.prevSlide()"></a>
+      <nav class="nav">
+        <div class="wrapper">
+          <ul class="dots">
+            <li class="dot" ng-repeat="slide in app.slides">
+              <a href="#" ng-class="{'active':app.isCurrentSlideIndex($index)}"
+              ng-click="app.setCurrentSlideIndex($index);">{{slide.description}}</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+  </div>
+ <!-- <div class="row col-xs-12">
    <div class="port">
     <div class="col-xs-4">
       <div class="thumbnail topL">
@@ -71,15 +90,15 @@ layout: default
     </div>
     <div class="col-xs-4">
       <div class="thumbnail topR">
-      <a href="http://loganarnett.com/TIY-Assignments/MVCtoDo/index.html"><img src="images/todo.jpg" alt="ToDo List" class="img-rounded surf port-right-top"></a>
+      <a href="http://loganarnett.com/TIY-Assignments/MVCtoDo/jQuery-Version/index.html"><img src="images/todo.jpg" alt="ToDo List" class="img-rounded surf port-right-top"></a>
     </div>
       <div class="caption">
-        <a href="http://loganarnett.com/TIY-Assignments/MVCtoDo/index.html"><h5>MVC ToDo List</h5></a>
+        <a href="http://loganarnett.com/TIY-Assignments/MVCtoDo/jQuery-Version/index.html"><h5>MVC ToDo List</h5></a>
         <p>To Do List Application in jQuery</p>
       </div>
     </div>
   </div>
-</div>
+ </div>
   <div class="row col-xs-12">
     <div class="port">
       <div class="col-xs-4">
@@ -110,9 +129,9 @@ layout: default
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
-</div>
+
 
 
   <div id="social">
