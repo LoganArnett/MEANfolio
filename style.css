@@ -513,7 +513,11 @@ NAV
   opacity: 1;
 }
 .contact-me {
-  float: right;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
 }
 
 @media (max-width: 1200px){
