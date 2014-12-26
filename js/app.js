@@ -41,7 +41,7 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
       var scope = element.scope();
 
       if (className == 'ng-hide') {
-        var finishPoint = element.parent().width();
+        var finishPoint = element.parent().parent().width();
         if(scope.direction !== 'right') {
           finishPoint = -finishPoint;
         }
