@@ -512,6 +512,9 @@ NAV
 .slide.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
+.contact-me {
+  float: right;
+}
 
 @media (max-width: 1200px){
    #page-title {
