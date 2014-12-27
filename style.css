@@ -515,13 +515,13 @@ NAV
 .contact-me {
   width: 20%;
   position: absolute;
-  top: 16ex;
+  top: 8ex;
   right: 0;
   color: white;
   text-align: right;
 }
 .contact-me p {
-  padding-right: 2em;
+  padding-right: 0.8em;
   color: white;
 }
 .contact-me2 {
