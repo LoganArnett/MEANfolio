@@ -513,10 +513,20 @@ NAV
   opacity: 1;
 }
 .contact-me {
-  width: 40%;
+  width: 20%;
   position: absolute;
-  bottom: 0;
+  top: 16ex;
   right: 0;
+  color: white;
+  text-align: right;
+}
+.contact-me p {
+  padding-right: 2em;
+  color: white;
+}
+.contact-me2 {
+  width: 60%;
+  margin: 8% auto 0;
   color: white;
 }
 
