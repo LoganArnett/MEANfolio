@@ -607,7 +607,6 @@ NAV
    }
 
    .arrow.next {
-
      right: 0px;
      /* background-image: url(../assets/img/paddle_next_999.png); */
      transition: 0.2s linear all;
@@ -630,7 +629,10 @@ NAV
 }
 @media (max-width: 480px){
    #page-title {
-     min-height: 250px;
+     height: 50vh;
+   }
+   #page-title .head-img {
+     height: 100%;
    }
    .page-header h1 {
      font-size: 160%;
@@ -652,6 +654,41 @@ NAV
   }
   * {
     font-size: 11pt;
+  }
+  .contact-me {
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    text-align: right;
+    line-height: 0ex;
+  }
+  .contact-me p {
+    font-size: 5pt;
+  }
+  .contact-me2 span {
+    font-size: 10pt;
+  }
+  .slider {
+    min-height: 300px;
+  }
+  .arrow.next {
+    font-size: 35pt;
+    padding-right: 1em;
+  }
+  .arrow.prev {
+    left: 0px;
+    font-size: 35pt;
+  }
+  #social .socialize {
+    height: 100%;
+  }
+  #social {
+    height: 60vh;
+  }
+  #projects {
+    height: 73vh;
   }
   /*#social {
     min-height: 200px;
