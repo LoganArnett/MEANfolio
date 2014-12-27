@@ -658,7 +658,7 @@ NAV
   .contact-me {
     width: 35%;
     position: absolute;
-    bottom: 0;
+    top: 32ex;
     right: 0;
     color: white;
     text-align: right;
@@ -667,11 +667,8 @@ NAV
   .contact-me p {
     font-size: 5pt;
   }
-  .contact-me2 h3 {
+  .contact-me2 h3, .contact-me2 span {
     font-size: 12pt;
-  }
-  .contact-me2 span {
-    font-size: 10pt;
   }
   .slider {
     min-height: 300px;
