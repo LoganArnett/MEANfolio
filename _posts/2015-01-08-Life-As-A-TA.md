@@ -9,7 +9,7 @@ excerpt: Watching the students have almost the exact same reactions and question
 ### Beginning Life as An Iron Yard Teaching Assistant
 
 This is my first week as the Spring 2015 Front End Engineering Teaching Assistant
-at [The Iron Yard Orlando(http://theironyard.com/locations/orlando/)].Watching the students have almost
+at [The Iron Yard Orlando](http://theironyard.com/locations/orlando/).Watching the students have almost
 the exact same reactions and questions to Git and Github is very interesting
 and watching them begin to understand and being able to help them through the
 learning process is very rewarding. The class is full of great and enthusiastic
