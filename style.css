@@ -239,7 +239,8 @@ div#posts {
 }
 #social .socialize {
   z-index: -1;
-  width: 100%;
+  width: 110%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -688,9 +689,6 @@ NAV
   .arrow.prev {
     left: 0px;
     font-size: 35pt;
-  }
-  #social .socialize {
-    height: 100%;
   }
   #social {
     height: 60vh;
