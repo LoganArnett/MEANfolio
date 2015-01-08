@@ -530,6 +530,13 @@ NAV
   color: white;
 }
 
+.slider-description {
+  padding-bottom: 2ex;
+}
+.slider-description p {
+  text-align: center;
+}
+
 @media (max-width: 1200px){
    #page-title {
      min-height: 500px;
