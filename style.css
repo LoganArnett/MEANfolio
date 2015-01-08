@@ -541,6 +541,13 @@ NAV
   text-align: center;
 }
 
+.full {
+  margin-bottom: 10%;
+}
+
+.full-board {
+  margin-top: 15%;
+}
 @media (max-width: 1200px){
    #page-title {
      min-height: 500px;
@@ -565,7 +572,7 @@ NAV
    .page-header h1 {
      font-size: 300%;
    }
-   
+
 }
 @media (max-width: 768px){
    #page-title {
