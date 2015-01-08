@@ -7,7 +7,7 @@ layout: default
   <h3>The Ironing Board</h3>
 
   <ul class="ironBoard">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:3 %}
       <li>
         <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
         <p class="datePost">{{ post.posted }}</p>
