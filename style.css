@@ -201,10 +201,12 @@ h5#section {
   text-align: center;
 }
 
- #projects {
+#projects {
   padding-bottom: 10ex;
   height: 100vh;
+  margin-bottom: 6ex;
 }
+
 div#posts {
   width: 50%;
 }
@@ -549,6 +551,9 @@ NAV
    .page-header h1 {
      font-size: 350%;
    }
+   #projects {
+     margin-bottom: 0;
+   }
 }
 @media (max-width: 992px){
    /* #about .backImage {
@@ -560,6 +565,7 @@ NAV
    .page-header h1 {
      font-size: 300%;
    }
+   
 }
 @media (max-width: 768px){
    #page-title {
