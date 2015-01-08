@@ -548,6 +548,18 @@ NAV
 .full-board {
   margin-top: 15%;
 }
+
+.all-posts {
+  text-align: center;
+}
+
+.all-posts a {
+  color: white;
+}
+
+.all-posts a:hover {
+  color: lightgray;
+}
 @media (max-width: 1200px){
    #page-title {
      min-height: 500px;
