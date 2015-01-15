@@ -750,7 +750,7 @@ NAV
   }
   .arrow.next {
     font-size: 16pt;
-    padding-right: 1em;
+    padding-right: 0;
   }
   .arrow.prev {
     left: 0px;
