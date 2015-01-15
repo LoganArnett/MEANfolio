@@ -612,10 +612,12 @@ NAV
    
    .arrow.prev {
      left: 5%;
+     font-size: 22pt;
    }
 
    .arrow.next {
      right: 5%;
+     font-size: 22pt;
    }
 
 }
