@@ -56,8 +56,6 @@ layout: default
         ng-swipe-right="app.nextSlide()" ng-swipe-left="app.prevSlide()"
         ng-hide="app.isCurrentSlideIndex($index) === false" ng-src="{[slide.image]}"></a>
 
-        <a class="arrow prev glyphicon glyphicon-chevron-left"  ng-click="app.prev()"></a>
-        <a class="arrow next glyphicon glyphicon-chevron-right"  ng-click="app.next()"></a>
       <nav class="nav-slider">
         <div class="wrapper">
           <ul class="dots">
@@ -68,6 +66,8 @@ layout: default
           </div>
         </nav>
     </div>
+    <a class="arrow prev glyphicon glyphicon-chevron-left"  ng-click="app.prev()"></a>
+    <a class="arrow next glyphicon glyphicon-chevron-right"  ng-click="app.next()"></a>
     <div class="slider-description">
       <p>Clicking on the images in the slide will take you directly to the actual project page</p><br>
       <p>The slider itself was a project that started in jQuery and then I refactored into AngularJS</p>
