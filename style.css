@@ -627,9 +627,9 @@ NAV
     opacity: 0;
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
-    font-size: 18pt;
-    left: 5%;
-    line-height: 2ex;
+    font-size: 14pt;
+    left: 8%;
+    line-height: 4ex;
 }
 
 .contact-label-yoko {
@@ -697,10 +697,6 @@ NAV
 	transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
 }
 
-.contact-input-yoko:visited {
-    opacity: 1;
-}
-
 .content {
 	font-size: 125%;
 	padding: 2em 0;
@@ -722,6 +718,12 @@ textarea {
     background-color: rgba(255, 250, 250, 0.8);
     width: 50%;
     min-height: 120px;
+}
+
+input:valid {
+opacity: 1;
+-webkit-transition-delay: 0.3s;
+transition-delay: 0.3s;
 }
 @media (max-width: 1200px){
    #page-title {
