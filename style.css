@@ -251,6 +251,7 @@ div#posts {
 }
 #social h3 {
   margin-top: 4%;
+  margin-bottom: 0;
 }
 #social a {
   color: white;
@@ -563,6 +564,19 @@ NAV
 
 .all-posts a:hover {
   color: lightgray;
+}
+
+#contactForm input {
+    width: 50%;
+    height: 8ex;
+    text-align: center;
+    margin: 3% 0;
+    color: gray;
+}
+
+#contactForm textarea {
+    width: 76%;
+    color: gray;
 }
 @media (max-width: 1200px){
    #page-title {

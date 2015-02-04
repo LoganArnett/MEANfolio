@@ -77,27 +77,45 @@ layout: default
   <div id="social">
     <img src="images/socialize.jpg" alt="phone" class="socialize">
     <h3>Socialize and Code</h3>
-    <div class="row socialFoot">
-      <div class="follow col-xs-3">
-        <a href="https://twitter.com/RxNerd"><span class="fa fa-twitter fa-5x"></span></a>
-      </div>
-      <div class="follow col-xs-3">
-        <a href="http://instagram.com/rxnerd"><span class="fa fa-instagram fa-5x"></span></a>
-      </div>
-      <div class="follow col-xs-3">
-        <a href="https://linkedin.com/in/LoganArnett/"><span class="fa fa-linkedin fa-5x"></span></a>
-      </div>
-      <div class="code col-xs-3">
-        <a href="https://github.com/LoganArnett"><span class="fa fa-github fa-5x"></span></a>
-      </div>
-    </div>
     <div class="row">
       <div class="contact-me2">
-        <h3>Have Questions About My Projects?<br>
-            Looking To Collaborate?<br>
-            Just Want To Talk Tech?</h3><br>
+        <h3>Questions? Collaborations? Just Wanna Talk?</h3><br>
+        <form id="contactForm">
+            <div class="first-name col-xs-12 col-md-6">
+                <input type="text" name="givenname" placeholder="First Name">
+            </div>
+            <div class="last-name col-xs-12 col-md-6">
+                <input type="text" name="givenname" placeholder="Last Name">
+            </div>
+            <div class="email-input col-xs-12 col-md-6">
+                <input type="email" name="signupEmail" placeholder="Email">
+            </div>
+            <div class="phone-number col-xs-12 col-md-6">
+                <input type="tel" name="phoneNumber" placeholder="Phone">
+            </div>
+            <div class="contact-message col-xs-12">
+                <textarea name="contactMessage" id="contactMessage" cols="30" rows="10">            </textarea>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">Send</button>
+        </form>
+        <div class="row socialFoot">
+            <div class="follow col-xs-3">
+                <a href="https://twitter.com/RxNerd"><span class="fa fa-twitter fa-5x"></span></a>
+            </div>
+            <div class="follow col-xs-3">
+                <a href="http://instagram.com/rxnerd"><span class="fa fa-instagram fa-5x"></span></a>
+            </div>
+            <div class="follow col-xs-3">
+                <a href="https://linkedin.com/in/LoganArnett/"><span class="fa fa-linkedin fa-5x"></span></a>
+            </div>
+            <div class="code col-xs-3">
+                <a href="https://github.com/LoganArnett"><span class="fa fa-github fa-5x"></span></a>
+            </div>
+        </div>
+<!--
         <a href="mailto:logan@loganarnett.com"><p><span class="fa fa-envelope fa-2x">&nbsp;&nbsp;Logan@LoganArnett.com</span></p></a><br>
         <a href="tel:15613025096"><p><span class="fa fa-mobile fa-2x">&nbsp;&nbsp;Call Me!</span></p></a>
+-->
       </div>
     </div>
 
