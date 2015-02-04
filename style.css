@@ -687,14 +687,18 @@ NAV
 }
 
 .contact-input-yoko:focus + .contact-label-yoko,
-.input--filled .contact-label-yoko {
+.input--filled .contact-label-yoko, {
 	pointer-events: none;
 }
 
 .contact-input-yoko:focus + .contact-label-yoko::after,
-.input--filled .contact-label-yoko::after {
-	-webkit-transform: perspective(1000px) rotate3d(1, 0, 0, -90deg);
-	transform: perspective(1000px) rotate3d(1, 0, 0, -90deg);
+.input--filled .contact-label-yoko::after, input:filled {
+	-webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+	transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+}
+
+.contact-input-yoko:visited {
+    opacity: 1;
 }
 
 .content {
