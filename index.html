@@ -79,8 +79,38 @@ layout: default
     <h3>Socialize and Code</h3>
     <div class="row">
       <div class="contact-me2">
-        <h3>Questions? Collaborations? Just Wanna Talk?</h3><br>
-        <form id="contactForm">
+        <h3>Questions? Collaborations?<br><small>Just Wanna Talk?</small></h3>
+        <form id="contactForm" class="content">
+            <div class="input col-xs-12 col-md-6">
+                <input class="contact-input contact-input-yoko" type="text" id="first" name="FirstName">
+                <label class="contact-label contact-label-yoko" for="first">
+                    <span class="contact-label-name contact-label-name-yoko">First Name</span>
+                </label>
+            </div>
+            <div class="input col-xs-12 col-md-6">
+                <input class="contact-input contact-input-yoko" type="text" id="last" name="LastName">
+                <label class="contact-label contact-label-yoko" for="last">
+                    <span class="contact-label-name contact-label-name-yoko">Last name</span>
+                </label>
+            </div>
+            <div class="input col-xs-12 col-md-6">
+                <input class="contact-input contact-input-yoko" type="email" id="email" name="Email">
+                <label class="contact-label contact-label-yoko" for="email">
+                    <span class="contact-label-name contact-label-name-yoko">Email</span>
+                </label>
+            </div>
+            <div class="input col-xs-12 col-md-6">
+                <input class="contact-input contact-input-yoko" type="tel" id="phone" name="PhoneNumber">
+                <label class="contact-label contact-label-yoko" for="phone">
+                    <span class="contact-label-name contact-label-name-yoko">Phone</span>
+                </label>
+            </div>
+            <div class="input col-xs-12">
+                <textarea class="contact-message" id="Message" placeholder="Leave a Message for Me Right Here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg">Send</button>
+         </form>
+<!--
             <div class="first-name col-xs-12 col-md-6">
                 <input type="text" name="givenname" placeholder="First Name">
             </div>
@@ -96,8 +126,7 @@ layout: default
             <div class="contact-message col-xs-12">
                 <textarea name="contactMessage" id="contactMessage" cols="30" rows="10">            </textarea>
             </div>
-            <button type="submit" class="btn btn-success btn-lg">Send</button>
-        </form>
+-->    
         <div class="row socialFoot">
             <div class="follow col-xs-3">
                 <a href="https://twitter.com/RxNerd"><span class="fa fa-twitter fa-5x"></span></a>

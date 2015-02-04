@@ -534,8 +534,8 @@ NAV
   color: white;
 }
 .contact-me2 {
-  width: 60%;
-  margin: 8% auto 0;
+  width: 70%;
+  margin: 2% auto 0;
   color: white;
 }
 
@@ -566,17 +566,158 @@ NAV
   color: lightgray;
 }
 
-#contactForm input {
-    width: 50%;
-    height: 8ex;
-    text-align: center;
-    margin: 3% 0;
-    color: gray;
+.input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    /* margin: 1em; */
+    /* max-width: 400px; */
+    /* width: calc(100% - 2em); */
+    vertical-align: top;
+    text-align: center; 
 }
 
-#contactForm textarea {
-    width: 76%;
-    color: gray;
+.contact-input {
+    position: relative;
+    display: block;
+    /* float: right; */
+    padding: 0.8em 4em;
+    width: 40%;
+    border: none;
+    border-radius: 0;
+    background: white;
+    color: #313131;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-appearance: none;
+}
+
+.contact-input:focus {
+	outline: none;
+}
+
+.contact-label {
+	display: inline-block;
+	padding: 0 1em;
+	width: 40%;
+	color: #6a7989;
+	font-weight: bold;
+	font-size: 70.25%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.contact-label-name {
+	position: relative;
+	display: block;
+	padding: 1.6em 0;
+	width: 100%;
+}
+
+/* Yoko */
+.contact-input-yoko {
+	z-index: 10;
+    width: 100%;
+    background: transparent;
+    color: #313131;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    font-size: 18pt;
+    left: 5%;
+    line-height: 2ex;
+}
+
+.contact-label-yoko {
+	position: relative;
+	width: 60%;
+	color: #313131;
+	text-align: left;
+}
+
+.contact-label-yoko::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 0%;
+    width: 100%;
+    height: 6em;
+    background: rgba(255, 250, 250, 0.8);
+    -webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(1000px) rotate3d(1, 0, 0, 90deg);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.contact-label-yoko::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 0.25em;
+    background: #313131;
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.contact-label-name-yoko {
+	padding: 0.75em 0;
+}
+
+.contact-input-yoko:focus,
+.input--filled .contact-input-yoko {
+	opacity: 1;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+}
+
+.contact-input-yoko:focus + .contact-label-yoko::before,
+.input--filled .contact-label-yoko::before {
+	-webkit-transform: perspective(1000px) rotate3d(1, 0, 0, 0deg);
+	transform: perspective(1000px) rotate3d(1, 0, 0, 0deg);
+}
+
+.contact-input-yoko:focus + .contact-label-yoko,
+.input--filled .contact-label-yoko {
+	pointer-events: none;
+}
+
+.contact-input-yoko:focus + .contact-label-yoko::after,
+.input--filled .contact-label-yoko::after {
+	-webkit-transform: perspective(1000px) rotate3d(1, 0, 0, -90deg);
+	transform: perspective(1000px) rotate3d(1, 0, 0, -90deg);
+}
+
+.content {
+	font-size: 125%;
+	padding: 2em 0;
+}
+
+.content h2 {
+	margin: 0 0 2em;
+	opacity: 0.1;
+}
+
+.content p {
+	margin: 1em 0;
+	padding: 5em 0 0 0;
+	font-size: 0.65em;
+}
+
+textarea {
+    color: #313131;
+    background-color: rgba(255, 250, 250, 0.8);
+    width: 50%;
+    min-height: 120px;
 }
 @media (max-width: 1200px){
    #page-title {
