@@ -937,6 +937,10 @@ transition-delay: 0.3s;
   }
   .mobile-social {
     display: block;
+    padding-top: 10%;
+  }
+  .follow span {
+    font-size: 20pt;
   }
   /*#social {
     min-height: 200px;
