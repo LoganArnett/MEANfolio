@@ -721,9 +721,6 @@ opacity: 1;
 transition-delay: 0.3s;
 }
 
-.row {
-  width: 100%;
-}
 @media (max-width: 1200px){
    #page-title {
      min-height: 500px;
