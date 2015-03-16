@@ -911,6 +911,9 @@ transition-delay: 0.3s;
   .contact-me2 h3, .contact-me2 span {
     font-size: 12pt;
   }
+  .contact-me2 {
+    width: 100%;
+  }
   .slider {
     min-height: 300px;
   }
@@ -940,7 +943,7 @@ transition-delay: 0.3s;
     padding-top: 10%;
   }
   .follow span {
-    font-size: 20pt;
+    font-size: 30pt;
   }
   /*#social {
     min-height: 200px;
