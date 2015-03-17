@@ -732,7 +732,28 @@ transition-delay: 0.3s;
 section.captions {
   z-index: 200;
   position: absolute;
-  bottom: 8%;
+  width: 95%;
+  bottom: 5%;
+}
+.Image00 {
+  color: rgba(254, 255, 255, 0.8);
+  background-color: rgba(200,0,0,0.5);
+}
+.Image01 {
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+}
+.Image02 {
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(0,0,150,0.8);
+}
+.Image03 {
+  color: rgba(20,0,0,0.8);
+  background-color: rgba(0,200,0,0.6);
+}
+.Image04 {
+  color: white;
+  background-color: rgba(153,102,51,0.6);
 }
 @media (max-width: 1200px){
    #page-title {
