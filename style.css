@@ -71,7 +71,7 @@ body {
 #about {
   padding-bottom: 3%;
   padding-top: 2%;
-  background: linear-gradient(rgba(200, 189, 244, 0.7), rgba(200, 189, 244, 0.7)), url('/images/bowling.jpeg'); /*#C8BDF4;  rgba(24,188,156,0.7); */
+  background: linear-gradient(rgba(200, 189, 244, 0.7), rgba(200, 189, 244, 0.7)), url('/images/mactable.jpg'); /*#C8BDF4;  rgba(24,188,156,0.7); */
   background-size: cover;
   position: relative;
   overflow: hidden;
