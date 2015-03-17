@@ -734,6 +734,7 @@ section.captions {
   position: absolute;
   width: 95%;
   bottom: 5%;
+  text-align: center;
 }
 .Image00 {
   color: rgba(254, 255, 255, 0.8);
