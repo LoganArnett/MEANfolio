@@ -46,7 +46,7 @@ layout: default
         ng-swipe-right="app.nextSlide()" ng-swipe-left="app.prevSlide()"
         ng-hide="app.isCurrentSlideIndex($index) === false" ng-src="{[slide.image]}">
         <section class="caption">
-          <p>{{slide.caption}}</p>
+          <p>{[slide.caption]}</p>
         </section>
       </a>
 
