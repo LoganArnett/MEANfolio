@@ -348,8 +348,11 @@ footer {
   color: black;
   margin-bottom: 0;
  }
+.ironBoard li {
+  margin-bottom: 3%;
+}
 p.datePost {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
  }
  .socialFoot {
    width: 80%;
@@ -359,11 +362,14 @@ p.datePost {
   margin: 0 auto;
   padding: 0 2%;
 }
-#about * {
-  color: white;
+#about p {
+  color: rgba(49, 49, 49, 1);
+  font-size: 18pt;
+  line-height: 2.5pc;
 }
 #about h3 {
   color: black;
+  margin: 4% 0 4%;
 }
 .slider {
   width: 55%;
