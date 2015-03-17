@@ -729,6 +729,11 @@ transition-delay: 0.3s;
 .mobile-social {
   display: none;
 }
+section.captions {
+  z-index: 200;
+  position: absolute;
+  bottom: 8%;
+}
 @media (max-width: 1200px){
    #page-title {
      min-height: 500px;
