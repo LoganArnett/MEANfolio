@@ -45,7 +45,9 @@ layout: default
       <a ng-repeat="slide in app.slides" ng-href="{[slide.url]}"><img class="slide slide-animation nonDraggableImage img-responsive"
         ng-swipe-right="app.nextSlide()" ng-swipe-left="app.prevSlide()"
         ng-hide="app.isCurrentSlideIndex($index) === false" ng-src="{[slide.image]}"></a>
-
+      <section class="caption">
+        <p>{{slide.caption}}</p>
+      </section>
       <nav class="nav-slider">
         <div class="wrapper">
           <ul class="dots">
