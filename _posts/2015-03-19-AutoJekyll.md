@@ -2,7 +2,7 @@
 layout: posts
 title: AutoJekyll is Born
 posted: Mar. 19, 2015
-excerpt: Sweet Its Automating my workflow
+excerpt: So as you can see thats a lot of steps and just not extremely easy for when I want to blog but only have a few minutes. So I finally decided to make a new tool to automate this workflow a little more.
 ---
 
 ###AutoJekyll is Born
