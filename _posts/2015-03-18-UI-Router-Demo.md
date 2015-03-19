@@ -2,7 +2,7 @@
 layout: posts
 title: UI-Router Demo
 posted: Mar. 03, 2015
-excerpt: Today I did a demo for the TIY students that covered using UI-Router in an __AngularJS__ web app
+excerpt: I went through the concepts of the nested views(which are an awesome feature that NgRoute does not have built in) and $stateParams. The $stateParams are very useful for the students right now as they aim to complete their final projects which for the most part utilize Firebase
 ---
 
 ### UI Router Demo
