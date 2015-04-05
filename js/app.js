@@ -42,14 +42,14 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   this.sendInfo = function(){
       if($('#first').val().length == 0){
           return self.firstName = true;
-      },
-      elseif($('#last').val().length == 0){
+      }
+      else if($('#last').val().length == 0){
           return self.lastName = true;
       },
-      elseif($('#email').val().length == 0){
+      else if($('#email').val().length == 0){
           return self.email = true;
       },
-      elseif($('#Message').val().length == 0){
+      else if($('#Message').val().length == 0){
          return self.message = true;
       },
       else {
