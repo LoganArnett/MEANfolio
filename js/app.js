@@ -34,30 +34,4 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
     return this.currentIndex === index;
   };
 
-  this.firstName = false;
-  this.lastName = false;
-  this.email = false;
-  this.message = false;
-  
-  var fireform = new Fireform('#contactForm', 'http://fireform.org/list/250/BlogContact', options);
-    
-  this.sendInfo = function(){
-      if($('#first').val().length == 0){
-          return self.firstName = true;
-      }
-      else if($('#last').val().length == 0){
-          return self.lastName = true;
-      }
-      else if($('#email').val().length == 0){
-          return self.email = true;
-      }
-      else if($('#Message').val().length == 0){
-         return self.message = true;
-      }
-      else {
-        console.log("hello")
-        fireform.submit();
-      }
-  }
-
 })
