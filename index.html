@@ -71,19 +71,19 @@ layout: default
         <h3>Questions? Collaborations?</h3>
         <form id="contactForm" class="content">
             <div class="input col-xs-6">
-                <input class="contact-input contact-input-yoko" type="text" id="first" name="FirstName" ng-model="app.nameFirst">
+                <input class="contact-input contact-input-yoko" type="text" id="first" name="FirstName" ng-model="app.nameFirst" required>
                 <label class="contact-label contact-label-yoko" for="first">
                     <span class="contact-label-name contact-label-name-yoko">First Name*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
-                <input class="contact-input contact-input-yoko" type="text" id="last" name="LastName" ng-model="app.nameLast">
+                <input class="contact-input contact-input-yoko" type="text" id="last" name="LastName" ng-model="app.nameLast" required>
                 <label class="contact-label contact-label-yoko" for="last">
                     <span class="contact-label-name contact-label-name-yoko">Last name*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
-                <input class="contact-input contact-input-yoko" type="email" id="email" name="Email" ng-model="app.userEmail">
+                <input class="contact-input contact-input-yoko" type="email" id="email" name="Email" ng-model="app.userEmail" required>
                 <label class="contact-label contact-label-yoko" for="email">
                     <span class="contact-label-name contact-label-name-yoko">Email*</span>
                 </label>
@@ -95,7 +95,7 @@ layout: default
                 </label>
             </div>
             <div class="input col-xs-12">
-                <textarea class="contact-message" id="Message" name="Message" placeholder="Leave a Message for Me Right Here" ng-model="app.contactMessage"></textarea>
+                <textarea class="contact-message" id="Message" name="Message" placeholder="Leave a Message for Me Right Here" ng-model="app.contactMessage" required></textarea>
             </div>
             <input ng-click="app.sendInfo()" value="Send" class="btn btn-success btn-lg">
          </form>
