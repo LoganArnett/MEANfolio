@@ -45,13 +45,13 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
       }
       else if($('#last').val().length == 0){
           return self.lastName = true;
-      },
+      }
       else if($('#email').val().length == 0){
           return self.email = true;
-      },
+      }
       else if($('#Message').val().length == 0){
          return self.message = true;
-      },
+      }
       else {
         console.log("hello")  
       }
