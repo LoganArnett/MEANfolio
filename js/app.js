@@ -33,10 +33,24 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   this.isCurrentSlideIndex = function (index) {
     return this.currentIndex === index;
   };
+
+  this.firstName = false;
+  this.lastName = false;
+  this.email = false;
+  this.message = false;
     
   this.sendInfo = function(){
-      if($('#first').val().length == 0 || $('#last').val().length == 0 || $('#email').val().length == 0 || $('#Message').val().length == 0){
-          console.log("FAIL")
+      if($('#first').val().length == 0){
+          self.firstName = true;
+      }
+      if($('#last').val().length == 0){
+          self.lastName = true;
+      }
+      if($('#email').val().length == 0){
+          self.email = true;
+      }
+      if($('#Message').val().length == 0){
+          self.message = true;
       }
       else {
         console.log("hello")  

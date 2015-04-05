@@ -68,24 +68,28 @@ layout: default
     <h3>Socialize and Code</h3>
     <div>
       <div class="contact-me2">
-        <h3>Questions? Collaborations?<br><small>Just Wanna Talk?</small></h3>
+        <h3>Questions? Collaborations?</h3>
+        <p ng-show="app.firstName">Please Provide Your First Name</p>
+        <p ng-show="app.lastName">Please Provide Your Last Name</p>
+        <p ng-show="app.email">Please Provide Your Email</p>
+        <p ng-show="app.message">Please Let Me Know What You Would Like To Discuss</p>
         <form id="contactForm" class="content">
             <div class="input col-xs-6">
                 <input class="contact-input contact-input-yoko" type="text" id="first" name="FirstName">
                 <label class="contact-label contact-label-yoko" for="first">
-                    <span class="contact-label-name contact-label-name-yoko">First Name</span>
+                    <span class="contact-label-name contact-label-name-yoko">First Name*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
                 <input class="contact-input contact-input-yoko" type="text" id="last" name="LastName">
                 <label class="contact-label contact-label-yoko" for="last">
-                    <span class="contact-label-name contact-label-name-yoko">Last name</span>
+                    <span class="contact-label-name contact-label-name-yoko">Last name*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
                 <input class="contact-input contact-input-yoko" type="email" id="email" name="Email">
                 <label class="contact-label contact-label-yoko" for="email">
-                    <span class="contact-label-name contact-label-name-yoko">Email</span>
+                    <span class="contact-label-name contact-label-name-yoko">Email*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
