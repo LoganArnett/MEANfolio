@@ -33,5 +33,9 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   this.isCurrentSlideIndex = function (index) {
     return this.currentIndex === index;
   };
+    
+  this.sendInfo = function(){
+      console.log("hello")
+  }
 
 })
