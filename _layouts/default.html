@@ -13,11 +13,13 @@
     <script type="application/javascript">
           options={
             emailNotification:"logan@loganarnett.com",
-            emailConfirmationName:"Email",  
+            emailConfirmationName:"Email",
             emailConfirmationFrom:"logan@loganarnett.com",  
             emailConfirmationSubject:"Thanks for Connecting",
             emailConfirmationBodyHTML:"<p>Thanks for connecting with me. I look forward to reviewing your email and I will get back to you as soon as possible. If you have any questions that you need answered quickly feel free to contact me directly at (561)302-5096. Thanks, Logan Arnett</p>",
-            emailConfirmationBodyText:"I look forward to reviewing your email and I will get back to you as soon as possible. If you have any questions that you need answered quickly feel free to contact me directly at (561)302-5096. Thanks, Logan Arnett"
+            emailConfirmationBodyText:"I look forward to reviewing your email and I will get back to you as soon as possible. If you have any questions that you need answered quickly feel free to contact me directly at (561)302-5096. Thanks, Logan Arnett",
+            simpleValidation: true,
+            inputValidationClass: "bad-input"
           }
           new Fireform('#contactForm', 'http://fireform.org/list/250/BlogContact', options)
     </script>
