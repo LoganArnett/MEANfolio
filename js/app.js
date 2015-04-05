@@ -35,7 +35,12 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   };
     
   this.sendInfo = function(){
-      console.log("hello")
+      if($('#first').val().length == 0 || $('#last').val().length == 0 || $('#email').val().length == 0 || $('#Message').val().length == 0){
+          console.log("FAIL")
+      }
+      else {
+        console.log("hello")  
+      }
   }
 
 })
