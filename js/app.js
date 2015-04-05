@@ -38,6 +38,8 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   this.lastName = false;
   this.email = false;
   this.message = false;
+  
+  var fireform = new Fireform('#contactForm', 'http://fireform.org/list/250/BlogContact', options);
     
   this.sendInfo = function(){
       if($('#first').val().length == 0){
@@ -53,7 +55,8 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
          return self.message = true;
       }
       else {
-        console.log("hello")  
+        console.log("hello")
+        fireform.submit();
       }
   }
 
