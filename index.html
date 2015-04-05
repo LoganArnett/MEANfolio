@@ -71,21 +71,21 @@ layout: default
         <h3>Questions? Collaborations?<br><small>Just Wanna Talk?</small></h3>
         <form id="contactForm" class="content">
             <div class="input col-xs-6">
-                <input class="contact-input contact-input-yoko" type="text" id="first" name="FirstName">
+                <input class="contact-input contact-input-yoko" type="text" id="first" name="FirstName" required>
                 <label class="contact-label contact-label-yoko" for="first">
-                    <span class="contact-label-name contact-label-name-yoko">First Name</span>
+                    <span class="contact-label-name contact-label-name-yoko">First Name*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
-                <input class="contact-input contact-input-yoko" type="text" id="last" name="LastName">
+                <input class="contact-input contact-input-yoko" type="text" id="last" name="LastName" required>
                 <label class="contact-label contact-label-yoko" for="last">
-                    <span class="contact-label-name contact-label-name-yoko">Last name</span>
+                    <span class="contact-label-name contact-label-name-yoko">Last name*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
-                <input class="contact-input contact-input-yoko" type="email" id="email" name="Email">
+                <input class="contact-input contact-input-yoko" type="email" id="email" name="Email" required>
                 <label class="contact-label contact-label-yoko" for="email">
-                    <span class="contact-label-name contact-label-name-yoko">Email</span>
+                    <span class="contact-label-name contact-label-name-yoko">Email*</span>
                 </label>
             </div>
             <div class="input col-xs-6">
@@ -95,7 +95,7 @@ layout: default
                 </label>
             </div>
             <div class="input col-xs-12">
-                <textarea class="contact-message" id="Message" name="Message" placeholder="Leave a Message for Me Right Here"></textarea>
+                <textarea class="contact-message" id="Message" name="Message" placeholder="Leave a Message for Me Right Here" required></textarea>
             </div>
             <button type="submit" class="btn btn-success btn-lg">Send</button>
          </form>
