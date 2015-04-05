@@ -41,16 +41,16 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
     
   this.sendInfo = function(){
       if($('#first').val().length == 0){
-          self.firstName = true;
+          return self.firstName = true;
       }
-      if($('#last').val().length == 0){
-          self.lastName = true;
+      elseif($('#last').val().length == 0){
+          return self.lastName = true;
       }
-      if($('#email').val().length == 0){
-          self.email = true;
+      elseif($('#email').val().length == 0){
+          return self.email = true;
       }
-      if($('#Message').val().length == 0){
-          self.message = true;
+      elseif($('#Message').val().length == 0){
+         return self.message = true;
       }
       else {
         console.log("hello")  
