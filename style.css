@@ -193,8 +193,9 @@ h4 {
   margin: 0 auto 10%;
 }
 .content-image {
-  width: 80%;
+  width: 50%;
   height: auto;
+  margin: 0 auto;
 }
 h5#section {
   text-align: right;
