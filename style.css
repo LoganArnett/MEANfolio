@@ -188,10 +188,13 @@ h4 {
     color: #f4858e;
     margin-top: 1%;
 }
-.content-image {
+.img-container {
   width: 60%;
+  margin: 0 auto 10%;
+}
+.content-image {
+  width: 80%;
   height: auto;
-  margin: 0 0 10% 20%;
 }
 h5#section {
   text-align: right;
