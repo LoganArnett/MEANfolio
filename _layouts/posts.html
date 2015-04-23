@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
     {% include head.html %}
-    {% include navbar-noheader.html %}
     <body>
-    <div id="container">
+      {% include navbar-noheader.html %}
+    <div id="container" class="container-fluid main-posts">
         {{content}}
         {% if page.image %}
-          <img src="{{ page.image }}" class="content-image">
+          <img src="{{ page.image }}" class="content-image thumbnail">
         {% endif %}
     </div>
 

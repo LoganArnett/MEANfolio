@@ -228,6 +228,10 @@ div#posts {
 #posts ul li a:visited {
   color: #e8e7e5;
 }
+
+.main-posts {
+  height: 90vh;
+}
 .fa-3x {
   padding: 0 1em;
 }
