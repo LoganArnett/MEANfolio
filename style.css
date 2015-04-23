@@ -238,6 +238,10 @@ div#posts {
   height: 100vh;
   overflow: scroll;
 }
+.main-posts p {
+  font-size: 1.3em;
+  line-height: 4ex;
+}
 .fa-3x {
   padding: 0 1em;
 }
