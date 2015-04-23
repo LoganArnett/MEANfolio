@@ -233,7 +233,8 @@ div#posts {
 }
 
 .main-posts {
-  height: 90vh;
+  height: 100vh;
+  overflow: scroll;
 }
 .fa-3x {
   padding: 0 1em;
