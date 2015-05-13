@@ -750,24 +750,23 @@ section.captions {
   text-align: center;
 }
 .Image00 {
-  color: rgba(254, 255, 255, 0.8);
-  background-color: rgba(200,0,0,0.5);
+  color: rgba(254, 255, 255, 1);
 }
 .Image01 {
-  color: white;
-  background-color: rgba(0,0,0,0.5);
+  color: black;
+  width: 50%;
 }
 .Image02 {
-  color: rgba(255,255,255,0.8);
-  background-color: rgba(0,0,150,0.8);
+  color: black;
 }
 .Image03 {
-  color: rgba(20,0,0,0.8);
-  background-color: rgba(0,200,0,0.6);
+  color: black;
 }
 .Image04 {
-  color: white;
-  background-color: rgba(153,102,51,0.6);
+  color: black;
+}
+.Image05 {
+  color: black;
 }
 @media (max-width: 1200px){
    #page-title {
