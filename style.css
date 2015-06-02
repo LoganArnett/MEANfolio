@@ -756,17 +756,12 @@ section.captions {
   color: black;
   width: 50%;
 }
-.Image02 {
-  color: black;
-}
-.Image03 {
-  color: black;
-}
-.Image04 {
+.Image02, .Image03, .Image04 {
   color: black;
 }
 .Image05 {
-  color: black;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
 }
 @media (max-width: 1200px){
    #page-title {
