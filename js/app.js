@@ -12,7 +12,7 @@ angular.module('slider', ['ngAnimate', 'ngTouch'])
   {image: 'images/autojekyll.png', description: 'Image02', url: "http://loganarnett.com/AutoJekyll/#/new", caption: 'AutoJekyll tool built for Jekyll Blog workflow'},
   {image: 'images/surf.png', description: 'Image03', url: "http://loganarnett.com/TIY-Assignments/Surf-and-Paddle/index.html", caption: 'Mock up of a Surf company blog and info site'},
   {image: 'images/ngstore.png', description: 'Image04', url: "http://loganarnett.com/NgStoreFront/#/", caption: 'Single page store front web app built with Angular and filled with products from the Etsy API'},
-  {image: 'images/mvctodo.png', description: 'Image05', url: "http://loganarnett.com/TIY-Assignments/MVCtoDo/jQuery-Version/index.html", caption: 'jQuery implementation of the TodoMVC project'}
+  {image: 'images/columbiastreet.png', description: 'Image05', url: "http://www.columbiastreet.com/", caption: 'Columbia Street Studios Rails App Refactor'}
   ];
   console.log(this.slides)
   this.direction = 'left';
