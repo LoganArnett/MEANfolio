@@ -28,6 +28,7 @@ body {
 #page-title {
     margin-left: auto;
     margin-right: auto;
+    background: linear-gradient(rgba(171, 225, 253, 0.7), rgba(171, 225, 253, 0.7));  /*#abe1fd; rgba(24,188,156,0.7); */
     height: 100vh;
     position: relative;
     overflow: hidden;
