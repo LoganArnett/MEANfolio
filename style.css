@@ -28,7 +28,7 @@ body {
 #page-title {
     margin-left: auto;
     margin-right: auto;
-    background: linear-gradient(rgba(171, 225, 253, 0.7), rgba(171, 225, 253, 0.7)), url('/images/woodWall.jpg');  /*#abe1fd; rgba(24,188,156,0.7); */
+    background: linear-gradient(rgba(171, 225, 253, 0.7), rgba(171, 225, 253, 0.7)), url('/images/desk.svg');  /*#abe1fd; rgba(24,188,156,0.7); */
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -38,7 +38,7 @@ body {
   border-bottom: none;
   text-align: center;
   position: absolute;
-  top: 10%;
+  top: 0;
   left: 10%;
   right: 10%;
 }
@@ -46,7 +46,7 @@ body {
   z-index: -1;
   width: 100%;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
 }
