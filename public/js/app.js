@@ -1,1 +1,1 @@
-angular.module('scotchMean', ['ngRoute']);
+angular.module('scotchMean', ['ui.router']);

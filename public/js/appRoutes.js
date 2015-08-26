@@ -1,20 +1,23 @@
 'use strict';
-    angular.module('scotchMean').config(function($routeProvider, $locationProvider) {
+    angular.module('scotchMean').config(function($stateProvider, $urlRouterProvider) {
 
-    $routeProvider
+    $stateProvider
 
         // home page
-        .when('/', {
+        .state('home', {
+            url: '/',
             templateUrl: 'views/home.html',
             controller: 'MainCtrl as main'
         })
 
         // nerds page that will use the NerdController
-        .when('/nerds', {
+        .state('nerds', {
+            url: '/nerds',
             templateUrl: 'views/nerd.html',
             controller: 'NerdCtrl as nerd'
         });
 
-    $locationProvider.html5Mode(true);
+    $urlRouterProvider.otherwise('/');
+
 
 });
