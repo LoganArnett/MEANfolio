@@ -1,0 +1,27 @@
+@import "bourbon";
+@import "neat";
+
+// Variables
+$center : 0 auto;
+
+nav {
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline;
+    a {
+      text-decoration: none;
+      color: gray;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}
+
+h1 {
+  width: 50%;
+  margin: $center;
+  text-align: center;
+}

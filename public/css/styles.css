@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+nav ul {
+  list-style-type: none; }
+
+nav li {
+  display: inline; }
+  nav li a {
+    text-decoration: none;
+    color: gray; }
+    nav li a:hover {
+      color: red; }
+
+h1 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center; }

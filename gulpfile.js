@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     source = require('vinyl-source-stream'),
     buffer = require('vinyl-buffer'),
-    browserSync = require('browserSync').create();
+    browserSync = require('browser-sync').create();
 
     // Static Server + watching scss/html files
 gulp.task('serve', ['sass'], function() {
