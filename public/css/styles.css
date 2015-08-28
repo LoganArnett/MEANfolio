@@ -15,7 +15,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: white; }
+  background: white;
+  z-index: 999; }
   nav ul {
     list-style-type: none; }
   nav li {
@@ -78,6 +79,8 @@ header {
             max-width: 40%; } }
 
 .side-image {
+  height: 100%;
+  z-index: 0;
   background: #F9F9F9; }
   @media screen and (min-width: 53.75em) {
     .side-image {
@@ -85,8 +88,8 @@ header {
       width: 100%;
       table-layout: fixed; } }
   .side-image .images-wrapper {
-    background: url("../assets/images/wildenglishbg.svg"), no-repeat scroll;
-    background: url("../assets/images/wildenglishbg.svg"), no-repeat scroll;
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("../assets/images/wildenglish.png");
     background-size: cover;
     border-bottom: 1px solid rgba(38, 74, 38, 0.2);
     display: block;
@@ -99,6 +102,10 @@ header {
         background-position: bottom;
         background-size: cover;
         border-right: 1px solid rgba(38, 74, 38, 0.2); } }
+    .side-image .images-wrapper img {
+      width: 80%;
+      position: absolute;
+      top: 20%; }
   .side-image .side-image-content {
     display: table-cell;
     width: 100%;
@@ -108,25 +115,25 @@ header {
         display: table-cell;
         width: 58.33333%;
         padding: 4em 4em 8em 4em; } }
-    .side-image .side-image-content h1 {
-      margin-bottom: 0.9em; }
     .side-image .side-image-content h4 {
+      margin-bottom: 0.9em;
+      text-align: right;
+      color: rgba(0, 0, 0, 0.8);
+      font-size: 1.5em; }
+    .side-image .side-image-content h3 {
       background: #BBB;
       color: white;
-      display: inline-block;
-      font-size: 0.75em;
-      margin-bottom: 1.3em;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
       padding: 3px 8px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      text-align: right;
+      width: 50%;
+      margin-left: 50%; }
     .side-image .side-image-content p {
       color: #333;
       line-height: 1.5em;
       margin-bottom: 3em; }
 
 .project {
-  height: 92vh; }
-
-#project1 {
-  background: url("../assets/images/wildenglishbg.svg");
-  background: url("../assets/images/wildenglishbg.svg");
-  background-size: 100% 100%; }
+  height: 94vh; }
