@@ -5,12 +5,12 @@
     "LoganArnett <Loganarn5@gmail.com>"
   ],
   "dependencies": {
-    "bootstrap": "latest",
-    "font-awesome": "latest",
-    "animate.css": "latest",
     "angular": "latest",
     "angular-route": "latest",
-    "angular-ui-router": "~0.2.15"
+    "angular-ui-router": "~0.2.15",
+    "animate.css": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "~4.4.0"
   },
   "license": "MIT",
   "ignore": [

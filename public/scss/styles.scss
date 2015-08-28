@@ -1,10 +1,21 @@
 @import "bourbon";
 @import "neat";
 
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
 // Variables
 $center : 0 auto;
+$green: #9BD095;
 
 nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
   ul {
     list-style-type: none;
   }
@@ -19,9 +30,143 @@ nav {
     }
   }
 }
-
-h1 {
-  width: 50%;
-  margin: $center;
+header {
   text-align: center;
+  height: 100vh;
+  h1 {
+    width: 50%;
+    margin: $center;
+  }
+}
+
+.hero {
+  $base-border-radius: 3px !default;
+  $action-color: #477DCA !default;
+  $large-screen: em(860) !default;
+  $hero-background-top: rgba(50,50,50,0.4);
+  $hero-background-bottom: rgba(50, 50, 50, 0.8);
+  $hero-color: white;
+  // $gradient-angle: 10deg;
+  $hero-image: '../assets/images/desktop.jpg';
+
+  @include background(linear-gradient($hero-background-top, $hero-background-bottom), url($hero-image), no-repeat $hero-background-top scroll);
+  background-color: #324766;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em;
+
+  .hero-logo img {
+    height: 12em;
+    margin: 10em 0 1em;
+  }
+
+  .hero-inner {
+    @include outer-container;
+    @include clearfix;
+    margin: auto;
+    padding: 3.5em;
+    text-align: center;
+
+    .hero-copy {
+      text-align: center;
+
+      h1 {
+        color: $hero-color;
+        font-size: 1.6em;
+        margin-bottom: 0.5em;
+
+        @include media($large-screen) {
+          font-size: 1.8em;
+        }
+      }
+
+      p {
+        color: $hero-color;
+        line-height: 1.4em;
+        margin: 0 auto 3em auto;
+
+        @include media($large-screen) {
+          font-size: 1.1em;
+          max-width: 40%;
+        }
+      }
+    }
+  }
+}
+
+.side-image {
+  $base-line-height: 1.5em !default;
+  $action-color: #477DCA !default;
+  $dark-gray: #333 !default;
+  $large-screen: em(860) !default;
+  $base-font-color: $dark-gray !default;
+  $side-image-background-top: #B5EBEB;
+  $side-image-background-bottom: #5DAC5D;
+  $side-image-content-background: #F9F9F9;
+  $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%);
+
+  background: $side-image-content-background;
+
+  @include media($large-screen) {
+    @include row(table);
+  }
+
+  .images-wrapper {
+    @include background(url('../assets/images/wildenglishbg.svg'), no-repeat scroll);
+    // background-color: $side-image-background-top;
+    background-size: cover;
+    border-bottom: $side-image-border;
+    display: block;
+    min-height: 12em;
+    padding: 3em;
+
+    @include media($large-screen) {
+      @include span-columns(5);
+      background-position: bottom;
+      background-size: cover;
+      border-right: $side-image-border;
+    }
+  }
+
+  .side-image-content {
+    @include span-columns(12);
+    padding: 1em 1em 4em 1em;
+
+    @include media($large-screen) {
+      @include span-columns(7);
+      padding: 4em 4em 8em 4em;
+    }
+
+    h1 {
+      margin-bottom: 0.9em;
+    }
+
+    h4 {
+      background: #BBB;
+      color: white;
+      display: inline-block;
+      font-size: 0.75em;
+      margin-bottom: 1.3em;
+      padding: 3px 8px;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+      margin-bottom: 3em;
+    }
+  }
+
+  @include reset-display();
+}
+
+.project {
+  height: 92vh;
+}
+
+#project1 {
+  @include background(url('../assets/images/wildenglishbg.svg'));
+  background-size: 100% 100%;
 }

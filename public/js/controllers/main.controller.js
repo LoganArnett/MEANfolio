@@ -3,5 +3,5 @@
 angular.module('scotchMean')
 
 .controller('MainCtrl', function(){
-  this.tagline = 'To The Moon and Back'
+  this.tagline = "Let's Make Something Amazing"
 });
