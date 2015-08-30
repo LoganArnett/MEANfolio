@@ -14,18 +14,39 @@
     <script src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
 
 </head>
-<body ng-app="scotchMean">
+<body ng-app="scotchMean" ng-controller="MainCtrl as main">
 <div class="container">
 
+   <ul class="navigation">
+    	<li class="nav-item"><a href="#">Home</a></li>
+    	<li class="nav-item"><a href="#">Portfolio</a></li>
+    	<li class="nav-item"><a href="#">About</a></li>
+    	<li class="nav-item"><a href="#">Blog</a></li>
+    	<li class="nav-item"><a href="#">Contact</a></li>
+    </ul>
+
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" ng-click="main.hamburger($event)"/>
+    <label for="nav-trigger">
+      <div class="menu-icon">
+        <span class="top">&nbsp</span>
+        <span class="middle">&nbsp</span>
+        <span class="bottom">&nbsp</span>
+      </div>
+    </label>
+
+    <div class="site-wrap">
+      <div ui-view></div>
+    </div>
+
     <!-- NAVIGATION -->
-    <nav class="">
+    <!-- <nav class="">
         <ul class="">
             <li><a class="" href="#/">Logan Arnett</a></li>
             <li><a href="#/nerds">Projects</a></li>
         </ul>
     </nav>
 
-    <div ui-view></div>
+    <div ui-view></div> -->
 
 </div>
 

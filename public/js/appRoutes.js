@@ -7,7 +7,6 @@
         .state('home', {
             url: '/',
             templateUrl: 'views/home.html',
-            controller: 'MainCtrl as main'
         })
 
         // nerds page that will use the NerdController
