@@ -15,4 +15,11 @@ angular.module('scotchMean')
         meat.toggleClass('done');
     }, 400);
   }
+
+  this.sidePanel = function(e){
+    angular.element(document.querySelector('.sliding-panel-content,.sliding-panel-fade-screen')).toggleClass('is-visible');
+    angular.element(document.querySelector('.menu-icon')).toggleClass('active');
+    setTimeout(function(){angular.element(document.querySelector('.menu-icon')).toggleClass('done')}, 300)
+    e.preventDefault();
+  };
 });
