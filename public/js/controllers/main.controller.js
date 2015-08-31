@@ -4,6 +4,7 @@ angular.module('scotchMean')
 
 .controller('MainCtrl', function(){
   this.tagline = "Let's Make Something Amazing"
+  this.colorChange = false;
 
   this.hamburger = function(e){
     var meat = angular.element(document.querySelector( '.menu-icon' ));
@@ -22,4 +23,18 @@ angular.module('scotchMean')
     setTimeout(function(){angular.element(document.querySelector('.menu-icon')).toggleClass('done')}, 300)
     e.preventDefault();
   };
+})
+.directive("scrollnav", function ($window) {
+    return function(scope, element, attrs) {
+        angular.element($window).bind("scroll", function() {
+             if (this.pageYOffset >= 760) {
+                 scope.colorChange = true;
+                 console.log('Scrolled below header.');
+             } else {
+                 scope.colorChange = false;
+                 console.log('Header is in view.');
+             }
+            scope.$apply();
+        });
+    };
 });

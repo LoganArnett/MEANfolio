@@ -162,16 +162,11 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif; }
 
-/* Navigation Menu - Background */
-.nav-trigger:checked + label {
-  left: 15%; }
-
 .slideIn {
   left: 0;
   z-index: 99;
   -webkit-transition: all 0.3s ease; }
 
-/* Additional non-critical styles */
 .menu-icon {
   position: fixed;
   top: 1%;
@@ -214,6 +209,9 @@ body {
     .menu-icon span.bottom {
       top: 12px;
       -webkit-transition: all 0.3s ease-in-out; }
+
+.menu-icon.colorNav span {
+  background-color: rgba(0, 0, 0, 0.7); }
 
 .menu-icon.active {
   left: 16%;
@@ -328,7 +326,7 @@ header {
       margin-bottom: 3em; }
 
 .project {
-  height: 94vh; }
+  height: 100vh; }
 
 .sliding-panel-content {
   position: fixed;

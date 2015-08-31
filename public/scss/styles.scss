@@ -11,106 +11,13 @@ body {
 // Variables
 $center : 0 auto;
 $green: #9BD095;
-
-/* Navigation Menu - Background */
-// .navigation {
-//   /* critical sizing and position styles */
-//   width: 14%;
-//   height: 100%;
-//   position: fixed;
-//   left: -14%;
-//   z-index: 999;
-//   margin: 0;
-//   padding: 0;
-//
-//   /* non-critical appearance styles */
-//   list-style: none;
-//   background: $green;
-//   -webkit-transition: all 0.15s ease;
-// }
-//
-// /* Navigation Menu - List items */
-// .nav-item {
-//   /* non-critical appearance styles */
-//   width: 200px;
-//   border-top: 1px solid whitesmoke;
-//   border-bottom: 1px solid whitesmoke;
-// }
-//
-// .nav-item:first-child {
-//   border-top: none;
-// }
-//
-// .nav-item:last-child {
-//   border-bottom: 2px solid whitesmoke;
-// }
-//
-// .nav-item a {
-//   /* non-critical appearance styles */
-//   display: block;
-//   padding: 1em;
-//   color: white;
-//   font-size: 1.2em;
-//   text-decoration: none;
-//   transition: color 0.2s, background 0.5s;
-// }
-//
-// .nav-item a:hover {
-//   color: #000;
-// }
-//
-// /* Site Wrapper - Everything that isn't navigation */
-// .site-wrap {
-//   /* Critical position and size styles */
-//   min-height: 100%;
-//   min-width: 100%;
-//   background-color: white; /* Needs a background or else the nav will show through */
-//   position: relative;
-//   top: 0;
-//   bottom: 100%;
-//   left: 0;
-//   z-index: 1;
-// }
-//
-// /* Nav Trigger */
-// .nav-trigger {
-//   /* critical styles - hide the checkbox input */
-//   position: absolute;
-//   clip: rect(0, 0, 0, 0);
-// }
-//
-// label[for="nav-trigger"] {
-//   /* critical positioning styles */
-//   position: fixed;
-//   left: 1%; top: 1.5%;
-//   z-index: 2;
-//
-//   /* non-critical apperance styles */
-//   height: 15px;
-//   width: 1.5%;
-//   cursor: pointer;
-// }
-//
-// /* Make the Magic Happen */
-// .nav-trigger + label, .site-wrap {
-//   transition: left 0.2s;
-// }
-
-.nav-trigger:checked + label {
-  left: 15%;
-}
+$trans-black: rgba(0,0,0,0.7);
 
 .slideIn {
   left: 0;
   z-index: 99;
   -webkit-transition: all 0.3s ease;
 }
-
-// .nav-trigger:checked ~ .site-wrap {
-//   left: 200px;
-// }
-
-/* Additional non-critical styles */
 
 .menu-icon {
   position: fixed;
@@ -172,6 +79,12 @@ $green: #9BD095;
       top:12px;
       -webkit-transition: all 0.3s ease-in-out;
     }
+  }
+}
+
+.menu-icon.colorNav {
+  span {
+    background-color: $trans-black;
   }
 }
 
@@ -325,7 +238,7 @@ header {
 }
 
 .project {
-  height: 94vh;
+  height: 100vh;
 }
 
 .sliding-panel-content {
