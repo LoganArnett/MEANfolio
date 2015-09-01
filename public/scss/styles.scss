@@ -113,7 +113,6 @@ header {
   $hero-image: '../assets/images/desktop.jpg';
 
   @include background(linear-gradient($hero-background-top, $hero-background-bottom), url($hero-image), no-repeat $hero-background-top scroll);
-  background-color: #324766;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +170,7 @@ header {
   height: 100%;
   z-index: 0;
 
-  background: $side-image-content-background;
+  // background: $side-image-content-background;
 
   @include media($large-screen) {
     @include row(table);
@@ -199,6 +198,7 @@ header {
       top: 0;
       left: -50%;
       height: 100%;
+      z-index: -1;
     }
   }
 

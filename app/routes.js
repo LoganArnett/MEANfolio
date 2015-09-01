@@ -18,6 +18,10 @@ app.get('/api/nerds', function(req, res){
   });
 });
 
+app.post('/api/projects', function(req, res){
+  console.log(req.body);
+});
+
 // route to handle creating goes here(app.post)
 // route to handle delete goes here (app.delete)
 
