@@ -2,7 +2,24 @@
 
 angular.module('scotchMean')
 
-.controller('MainCtrl', function(){
+.factory('projectFactory', function projectFactory($http){
+  return $http.get('../assets/projects/projects.json')
+})
+.filter('removeSpaces', function () {
+        return function (text) {
+          var str = text.replace(/\s+/g, '');
+          return str;
+        };
+})
+
+.controller('MainCtrl', function(projectFactory){
+  var self = this;
+  this.projects = [];
+  projectFactory.then(function(data){
+    console.log(data)
+    return self.projects = data.data.projects
+  })
+
   this.tagline = "Let's Make Something Amazing"
   this.colorChange = false;
 

@@ -279,12 +279,13 @@ header {
       table-layout: fixed; } }
   .side-image .images-wrapper {
     position: relative;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9)), url("../assets/images/wildenglish.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9));
     background-size: cover;
     border-bottom: 1px solid rgba(38, 74, 38, 0.2);
     display: block;
     min-height: 12em;
-    padding: 3em; }
+    padding: 3em;
+    overflow: hidden; }
     @media screen and (min-width: 53.75em) {
       .side-image .images-wrapper {
         display: table-cell;
@@ -293,9 +294,11 @@ header {
         background-size: cover;
         border-right: 1px solid rgba(38, 74, 38, 0.2); } }
     .side-image .images-wrapper img {
-      width: 80%;
+      width: 200%;
       position: absolute;
-      top: 20%; }
+      top: 0;
+      left: -50%;
+      height: 100%; }
   .side-image .side-image-content {
     display: table-cell;
     width: 100%;

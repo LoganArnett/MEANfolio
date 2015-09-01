@@ -179,12 +179,13 @@ header {
 
   .images-wrapper {
     position: relative;
-    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.9)), url('../assets/images/wildenglish.png');
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.9));
     background-size: cover;
     border-bottom: $side-image-border;
     display: block;
     min-height: 12em;
     padding: 3em;
+    overflow: hidden;
 
     @include media($large-screen) {
       @include span-columns(5);
@@ -193,9 +194,11 @@ header {
       border-right: $side-image-border;
     }
     img {
-      width: 80%;
+      width: 200%;
       position: absolute;
-      top: 20%;
+      top: 0;
+      left: -50%;
+      height: 100%;
     }
   }
 
