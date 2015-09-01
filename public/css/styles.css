@@ -326,7 +326,8 @@ header {
       margin-bottom: 3em; }
 
 .project {
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
 
 .sliding-panel-content {
   position: fixed;
