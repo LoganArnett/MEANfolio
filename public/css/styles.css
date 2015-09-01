@@ -397,3 +397,13 @@ header {
   outline: none; }
   .sliding-panel-button img {
     height: 1.3em; }
+
+.tech {
+  list-style-type: none; }
+  .tech li {
+    display: inline-block;
+    width: 33%; }
+    .tech li figure {
+      text-align: center; }
+      .tech li figure img {
+        width: 50%; }

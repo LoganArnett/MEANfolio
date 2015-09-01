@@ -29,10 +29,8 @@ angular.module('scotchMean')
         angular.element($window).bind("scroll", function() {
              if (this.pageYOffset >= 760) {
                  scope.colorChange = true;
-                 console.log('Scrolled below header.');
              } else {
                  scope.colorChange = false;
-                 console.log('Header is in view.');
              }
             scope.$apply();
         });

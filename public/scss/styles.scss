@@ -319,4 +319,16 @@ header {
   }
 }
 
-// Based on code by Diego Eis
+.tech {
+  list-style-type: none;
+  li {
+    display: inline-block;
+    width: 33%;
+    figure {
+      text-align: center;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
