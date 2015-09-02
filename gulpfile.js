@@ -14,7 +14,7 @@ var gulp = require('gulp'),
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./public"
+        server: "./"
     });
 
     gulp.watch("public/scss/*.scss", ['sass']);

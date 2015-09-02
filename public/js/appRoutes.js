@@ -6,13 +6,13 @@
         // home page
         .state('home', {
             url: '/',
-            templateUrl: 'views/home.html',
+            templateUrl: 'public/views/home.html',
         })
 
         // nerds page that will use the NerdController
         .state('nerds', {
             url: '/nerds',
-            templateUrl: 'views/nerd.html',
+            templateUrl: 'public/views/nerd.html',
             controller: 'NerdCtrl as nerd'
         });
 

@@ -1,5 +1,6 @@
 // grab the nerd model we just created
 var Nerd = require('./models/nerd');
+var Projects = require('./models/projects');
 
 module.exports = function(app){
 
@@ -18,13 +19,11 @@ app.get('/api/nerds', function(req, res){
   });
 });
 
+// route to handle creating goes here(app.post)
+// route to handle delete goes here (app.delete)
 app.post('/api/projects', function(req, res){
   console.log(req.body);
 });
-
-// route to handle creating goes here(app.post)
-// route to handle delete goes here (app.delete)
-
 // frontend routes ======
 // route to handle all angular requests
 app.get('*', function(req, res){

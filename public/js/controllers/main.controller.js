@@ -3,12 +3,18 @@
 angular.module('scotchMean')
 
 .factory('projectFactory', function projectFactory($http){
-  return $http.get('../assets/projects/projects.json')
+  return $http.get('../public/assets/projects/projects.json')
 })
 .filter('removeSpaces', function () {
         return function (text) {
           var str = text.replace(/\s+/g, '');
           return str;
+        };
+})
+.filter('capScore', function () {
+        return function (text) {
+          var str = text.replace(/_/g, ' ');
+          return str.replace(/(?:^|\s)\S/g, function(str) { return str.toUpperCase(); });
         };
 })
 

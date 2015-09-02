@@ -1,6 +1,6 @@
 <header class="hero">
   <div class="hero-inner">
-    <a href="" class="hero-logo"><img src="assets/images/logo1.svg" alt="Logo Image"></a>
+    <a href="" class="hero-logo"><img src="public/assets/images/logo1.svg" alt="Logo Image"></a>
     <div class="hero-copy">
       <h1>Let's Make Something Amazing.</h1>
     </div>
@@ -9,18 +9,18 @@
 <section id="project{{$index + 1}}" class="project" ng-repeat="($index, project) in main.projects">
   <div class="side-image">
   <div class="images-wrapper">
-    <img src="assets/images/{{project.site | lowercase | removeSpaces}}.png" alt="{{project.site}}">
+    <img src="public/assets/images/{{project.site | lowercase | removeSpaces}}.png" alt="{{project.site}}">
   </div>
     <div class="side-image-content">
-      <h3>{{project.site}}</h3>
-      <h4>{{project.title}}</h4>
+      <h3>{{project.site | capScore }}</h3>
+      <h4>{{project.title | capScore }}</h4>
       <p class="description">{{project.desc}}</p>
       <h2>Tech Used:</h2>
       <ul class="tech">
         <li ng-repeat="name in project.tech">
           <figure>
-            <img src="assets/images/{{name}}.png" alt="AngularJS">
-            <figcaption>{{name}}</figcaption>
+            <img src="public/assets/images/{{name}}.png" alt="AngularJS">
+            <figcaption>{{name | capScore}}</figcaption>
           </figure>
         </li>
       </ul>
