@@ -1,0 +1,25 @@
+{
+  "name": "scotchMean",
+  "version": "0.0.0",
+  "authors": [
+    "LoganArnett <Loganarn5@gmail.com>"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-ui-router": "~0.2.15",
+    "animate.css": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "~4.4.0",
+    "restangular": "~1.5.1"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,29 @@
+<header class="hero">
+  <div class="hero-inner">
+    <a href="" class="hero-logo"><img src="public/assets/images/logo1.svg" alt="Logo Image"></a>
+    <div class="hero-copy">
+      <h1>Let's Make Something Amazing.</h1>
+    </div>
+  </div>
+</header>
+<section id="project{{$index + 1}}" class="project" ng-repeat="($index, project) in main.projects">
+  <div class="side-image" ng-class-even="'evens'">
+  <div class="images-wrapper" ng-class-even="'right'">
+    <img src="public/assets/images/{{project.site | lowercase | underscore}}.png" alt="{{project.site}}">
+  </div>
+    <div class="side-image-content" ng-class-even="'left'">
+      <h3>{{project.site | caps }}</h3>
+      <h4>{{project.title | caps }}</h4>
+      <p class="description">{{project.desc}}</p>
+      <h2>Tech Used:</h2>
+      <ul class="tech">
+        <li ng-repeat="name in project.tech">
+          <figure>
+            <img src="public/assets/images/{{name | underscore}}.png" alt="{{name}}">
+            <figcaption>{{name | caps}}</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
