@@ -2,8 +2,8 @@
 
 angular.module('scotchMean')
 
-.factory('projectFactory', function projectFactory($http){
-  return $http.get('http://localhost:8080/api/projects')
+.factory('projectFactory', function projectFactory(Restangular){
+  return Restangular.one('api/projects').getList();
 })
 .filter('caps', function () {
   return function (text) {
@@ -22,7 +22,7 @@ angular.module('scotchMean')
   this.projects = [];
   projectFactory.then(function(results){
     console.log(results)
-    return self.projects = results.data;
+    return self.projects = results;
   })
 
   this.tagline = "Let's Make Something Amazing"

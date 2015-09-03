@@ -290,7 +290,10 @@ header {
         width: 41.66667%;
         background-position: bottom;
         background-size: cover;
-        border-right: 1px solid rgba(38, 74, 38, 0.2); } }
+        border-right: 1px solid rgba(38, 74, 38, 0.2); }
+        .side-image .images-wrapper.right {
+          float: right;
+          height: 100%; } }
     .side-image .images-wrapper img {
       width: 200%;
       position: absolute;
@@ -306,7 +309,14 @@ header {
       .side-image .side-image-content {
         display: table-cell;
         width: 58.33333%;
-        padding: 4em 4em 8em 4em; } }
+        padding: 4em 4em 8em 4em; }
+        .side-image .side-image-content.left {
+          float: left; }
+          .side-image .side-image-content.left h4 {
+            text-align: left; }
+          .side-image .side-image-content.left h3 {
+            margin-left: 0;
+            text-align: right; } }
     .side-image .side-image-content h4 {
       margin-bottom: 0.9em;
       text-align: right;
@@ -319,7 +329,7 @@ header {
       margin-bottom: 0.5em;
       padding: 3px 8px;
       text-transform: uppercase;
-      text-align: right;
+      text-align: left;
       width: 50%;
       margin-left: 50%; }
     .side-image .side-image-content p {

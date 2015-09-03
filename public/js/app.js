@@ -1,1 +1,1 @@
-angular.module('scotchMean', ['ui.router']);
+angular.module('scotchMean', ['ui.router', 'restangular']);

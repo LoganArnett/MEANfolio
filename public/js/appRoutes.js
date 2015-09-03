@@ -1,5 +1,6 @@
 'use strict';
-    angular.module('scotchMean').config(function($stateProvider, $urlRouterProvider) {
+    angular.module('scotchMean').config(function($stateProvider, $urlRouterProvider, RestangularProvider) {
+    RestangularProvider.setBaseUrl('http://localhost:8080');
 
     $stateProvider
 
