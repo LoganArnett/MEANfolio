@@ -13,7 +13,7 @@ var mongoose = require('mongoose');
 var db = require('./config/db');
 
 // set port
-var port = process.env.PORT || 3002;
+var port = process.env.PORT || 8080;
 
 // connect to our mongoDB database
 // (uncomment after you enter in your own credentials in config/db.js)
@@ -31,6 +31,19 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // override with the X-HTTP-Method-Override header in the request
 app.use(methodOverride('X-HTTP-Method-Override'));
+var CORS = function(req, res, next) {
+res.header('Access-Control-Allow-Origin', '*');
+res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+res.header('Access-Control-Allow-Headers', 'Content-Type');
+// some browsers send a pre-flight OPTIONS request to check if CORS is enabled so you have to also respond to that
+if ('OPTIONS' === req.method) {
+  res.send(200);
+}
+else {
+  next();
+}
+};
+app.use(CORS);
 
 // set static files location /public/img will be /img for users
 app.use(express.static(__dirname + '/public'));

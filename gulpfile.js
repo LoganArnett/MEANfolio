@@ -8,10 +8,11 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     source = require('vinyl-source-stream'),
     buffer = require('vinyl-buffer'),
-    browserSync = require('browser-sync').create();
+    browserSync = require('browser-sync').create(),
+    nodemon = require('gulp-nodemon');
 
     // Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
+gulp.task('server', ['sass'], function() {
 
     browserSync.init({
         server: "./"
@@ -64,11 +65,22 @@ gulp.task('images', function() {
     .pipe(gulp.dest('dist/img'));
 });
 
+gulp.task('start', function () {
+  nodemon({
+    script: 'server.js'
+  , ext: 'js html'
+  , env: { 'NODE_ENV': 'development' }
+  })
+})
+
 // Watch task
 // gulp.task('watch', function() {
 
 //   gulp.watch('site/scss/*.scss', ['sass']);
 // });
+
+// Serve Task with nodemon
+gulp.task('serve', ['start', 'server'])
 
 // Default task
 gulp.task('default', ['jshint', 'sass', 'watch']);

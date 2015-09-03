@@ -3,27 +3,26 @@
 angular.module('scotchMean')
 
 .factory('projectFactory', function projectFactory($http){
-  return $http.get('../public/assets/projects/projects.json')
+  return $http.get('http://localhost:8080/api/projects')
 })
-.filter('removeSpaces', function () {
-        return function (text) {
-          var str = text.replace(/\s+/g, '');
-          return str;
-        };
+.filter('caps', function () {
+  return function (text) {
+    return text.replace(/(?:^|\s)\S/g, function(text) { return text.toUpperCase(); });
+  };
 })
-.filter('capScore', function () {
-        return function (text) {
-          var str = text.replace(/_/g, ' ');
-          return str.replace(/(?:^|\s)\S/g, function(str) { return str.toUpperCase(); });
-        };
+.filter('underscore', function(){
+  return function (text) {
+    var str = text.replace(/ /g, '_');
+    return str;
+  };
 })
 
 .controller('MainCtrl', function(projectFactory){
   var self = this;
   this.projects = [];
-  projectFactory.then(function(data){
-    console.log(data)
-    return self.projects = data.data.projects
+  projectFactory.then(function(results){
+    console.log(results)
+    return self.projects = results.data;
   })
 
   this.tagline = "Let's Make Something Amazing"
