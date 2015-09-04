@@ -9,13 +9,15 @@
             url: '/',
             templateUrl: 'public/views/home.html',
         })
-
-        // nerds page that will use the NerdController
         .state('projects', {
             url: '/new/project',
             templateUrl: 'public/views/new_project.html',
             controller: 'ProjectCtrl as project'
-        });
+        })
+        .state('about', {
+          url: '/about',
+          templateUrl: 'public/views/about.html',
+        })
 
     $urlRouterProvider.otherwise('/');
 

@@ -45,7 +45,6 @@ angular.module('scotchMean')
     // angular.element(document.querySelector('.sliding-panel-fade-screen')).toggleClass('is-visible');
     angular.element(document.querySelector('.menu-icon')).toggleClass('active');
     setTimeout(function(){angular.element(document.querySelector('.menu-icon')).toggleClass('done')}, 300)
-    e.preventDefault();
   };
 })
 .directive("scrollnav", function ($window) {
