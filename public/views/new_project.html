@@ -2,11 +2,11 @@
     <h1>Nerds and Proud</h1>
 
     <p>{{ project.tagline }}</p>
-    <form name="new_project" class="new_project_form" novalidate ng-submit="project.create(project.newProject)">
-      <input type="text" ng-model="project.newProject.site">
-      <input type="text" ng-model="project.newProject.title">
-      <input type="text" ng-model="project.newProject.desc">
-      <input type="text" ng-model="project.newProject.tech">
+    <form name="new_project" id="newProject" class="new_project_form" novalidate ng-submit="project.create(project.newProject)">
+      <input type="text" ng-model="project.newProject.site" placeholder="Site Name">
+      <input type="text" ng-model="project.newProject.title" placeholder="Title">
+      <input type="text" ng-model="project.newProject.tech" placeholder="Tech Used">
+      <textarea ng-model="project.newProject.desc" placeholder="Description"></textarea>
       <button class="btn" type="submit">Save</button>
     </form>
     <!-- <button ng-click="project.send()">Submit</button> -->

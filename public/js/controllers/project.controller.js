@@ -2,15 +2,8 @@
 
 angular.module('scotchMean')
 
-.factory('getProjects', function($http){
-  return $http.get('http://localhost:8080/api/projects');
-})
-
-.controller('ProjectCtrl', function($http, getProjects) {
+.controller('ProjectCtrl', function(Restangular) {
     var self = this;
-    getProjects.then(function(results){
-      console.log(results)
-    })
     this.newProject = {};
 
     this.tagline = 'Nothing beats a pocket protector!';
@@ -31,7 +24,10 @@ angular.module('scotchMean')
       }
 
       // $http.post('/api/projects', newProject)
-      $http.post('http://localhost:8080/api/projects', newProject)
+      Restangular.one('api/').post('projects', JSON.stringify(newProject)).then(function(){
+        $location.path('#/');
+      });
+
     }
 
 });

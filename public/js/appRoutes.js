@@ -1,6 +1,6 @@
 'use strict';
     angular.module('scotchMean').config(function($stateProvider, $urlRouterProvider, RestangularProvider) {
-    RestangularProvider.setBaseUrl('http://localhost:8080');
+    RestangularProvider.setBaseUrl('http://fierce-brook-9239.herokuapp.com/');
 
     $stateProvider
 
