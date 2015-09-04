@@ -174,7 +174,7 @@ body {
   width: 1.2em;
   height: 15px;
   cursor: pointer;
-  z-index: 999;
+  z-index: 9999;
   -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease; }
   .menu-icon.active.done span.top {
@@ -358,7 +358,7 @@ header {
   -moz-transition: all 0.25s linear;
   transition: all 0.25s linear;
   background: #404040;
-  z-index: 999999;
+  z-index: 999;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
   .sliding-panel-content ul {
@@ -397,7 +397,7 @@ header {
   background: black;
   opacity: 0;
   visibility: hidden;
-  z-index: 999998; }
+  z-index: 998; }
   .sliding-panel-fade-screen.is-visible {
     opacity: 0.4;
     visibility: visible; }
