@@ -17,7 +17,7 @@ var port = process.env.PORT || 8080;
 
 // connect to our mongoDB database
 // (uncomment after you enter in your own credentials in config/db.js)
-mongoose.connect(db.url);
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/meanpress');
 
 // get all data of the body in (POST) parameters
 // parse application/json
