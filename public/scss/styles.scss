@@ -12,6 +12,9 @@ body {
 $center : 0 auto;
 $green: #9BD095;
 $trans-black: rgba(0,0,0,0.7);
+$medium-screen: em(760);
+$large-screen: em(992);
+$mobile-6: em(667);
 
 .slideIn {
   left: 0;
@@ -97,15 +100,17 @@ header {
   text-align: center;
   height: 100vh;
   h1 {
-    width: 50%;
+    width: 90%;
     margin: $center;
+    @include media($large-screen) {
+      width: 50%;
+    }
   }
 }
 
 .hero {
   $base-border-radius: 3px !default;
   $action-color: #477DCA !default;
-  $large-screen: em(860) !default;
   $hero-background-top: rgba(50,50,50,0.4);
   $hero-background-bottom: rgba(50, 50, 50, 0.8);
   $hero-color: white;
@@ -119,8 +124,11 @@ header {
   padding-bottom: 3em;
 
   .hero-logo img {
-    height: 12em;
-    margin: 10em 0 1em;
+    margin: 15% 0 1em;
+    height: 35em;
+    @include media($large-screen) {
+      height: 12em;
+    }
   }
 
   .hero-inner {
@@ -135,7 +143,7 @@ header {
 
       h1 {
         color: $hero-color;
-        font-size: 1.6em;
+        font-size: 4em;
         margin-bottom: 0.5em;
 
         @include media($large-screen) {
@@ -161,7 +169,6 @@ header {
   $base-line-height: 1.5em !default;
   $action-color: #477DCA !default;
   $dark-gray: #333 !default;
-  $large-screen: em(860) !default;
   $base-font-color: $dark-gray !default;
   $side-image-background-top: #B5EBEB;
   $side-image-background-bottom: #5DAC5D;
@@ -181,12 +188,13 @@ header {
     background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.9));
     background-size: cover;
     border-bottom: $side-image-border;
-    display: block;
     min-height: 12em;
     padding: 3em;
     overflow: hidden;
+    display: none;
 
     @include media($large-screen) {
+      display: block;
       @include span-columns(5);
       background-position: bottom;
       background-size: cover;
@@ -230,25 +238,42 @@ header {
       margin-bottom: 0.9em;
       text-align: right;
       color: rgba(0,0,0,0.8);
-      font-size: 1.5em;
+      font-size: 3.5em;
+      @include media($large-screen) {
+        font-size: 1.5em;
+      }
     }
 
     h3 {
       background: #BBB;
       color: white;
-      font-size: 2.5em;
+      font-size: 5.5em;
       margin-bottom: 0.5em;
       padding: 3px 8px;
       text-transform: uppercase;
       text-align: left;
-      width: 50%;
-      margin-left: 50%;
+      width: 100%;
+      @include media($large-screen) {
+        width: 50%;
+        margin-left: 50%;
+        font-size: 2.5em;
+      }
     }
 
     p {
       color: $base-font-color;
       line-height: $base-line-height;
       margin-bottom: 3em;
+      font-size: 2.5em;
+      @include media($large-screen) {
+        font-size: 1em;
+      }
+    }
+    h2 {
+      font-size: 3em;
+      @include media($large-screen) {
+        font-size: 1em;
+      }
     }
   }
 
@@ -346,7 +371,16 @@ header {
     figure {
       text-align: center;
       img {
-        width: 50%;
+        width: 75%;
+        @include media($large-screen) {
+          width: 50%;
+        }
+      }
+      figcaption {
+        font-size: 2em;
+        @include media($large-screen) {
+          font-size: 1em;
+        }
       }
     }
   }
