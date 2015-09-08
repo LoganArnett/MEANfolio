@@ -423,3 +423,54 @@ header {
     }
   }
 }
+
+.project-form-container {
+  width: 100%;
+  margin: $center;
+  padding-top: 2%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/images/desktop.jpg');
+  h1 {
+    text-align: center;
+    margin: 0;
+    color: white;
+  }
+  form {
+    input {
+      width: 50%;
+      margin: 2% auto;
+      display: block;
+      padding: 1%;
+      font-size: 1.1em;
+      border-radius: 8px;
+      &:focus {
+        outline: none;
+      }
+    }
+    textarea {
+      width: 50%;
+      margin: $center;
+      display: block;
+      min-height: em(150px);
+      font-size: 1.4em;
+      border-radius: 8px;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      width: 25%;
+      display: block;
+      margin: 2% auto;
+      padding: 1%;
+      border-radius: 8px;
+      font-size: 1.2em;
+      background-color: $green;
+      color: white;
+      border: none;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

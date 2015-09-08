@@ -1,11 +1,12 @@
-<div class="jumbotron text-center">
+<div class="project-form-container">
     <h1>New Project</h1>
-    
-    <form name="new_project" id="newProject" class="new_project_form" novalidate ng-submit="project.create(project.newProject)">
-      <input type="text" ng-model="project.newProject.site" placeholder="Site Name">
-      <input type="text" ng-model="project.newProject.title" placeholder="Title">
-      <input type="text" ng-model="project.newProject.tech" placeholder="Tech Used">
-      <textarea ng-model="project.newProject.desc" placeholder="Description"></textarea>
+
+    <form name="new_project" id="newProject" class="new_project_form" novalidate ng-submit="project.new_project.$valid&&project.create(project.newProject)">
+      <input type="text" ng-model="project.newProject.site" placeholder="Site Name" required>
+      <input type="text" ng-model="project.newProject.link" placeholder="Link to Demo" required>
+      <input type="text" ng-model="project.newProject.title" placeholder="Title" required>
+      <input type="text" ng-model="project.newProject.tech" placeholder="Tech Used" required>
+      <textarea ng-model="project.newProject.desc" placeholder="Description" required></textarea>
       <button class="btn" type="submit">Save</button>
     </form>
     <!-- <button ng-click="project.send()">Submit</button> -->

@@ -8,7 +8,7 @@ angular.module('scotchMean')
 
     this.tagline = 'Nothing beats a pocket protector!';
     this.create = function(){
-      if(self.newProject.site == ' ' || self.newProject.title == ' ' || self.newProject.desc == ' ' || self.newProject.tech == ' '){
+      if(self.newProject.site == '' || self.newProject.title == '' || self.newProject.desc == '' || self.newProject.tech == ''){
         alert('WOOPS, please fill in all fields')
         return false;
       }
