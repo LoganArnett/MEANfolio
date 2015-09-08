@@ -237,8 +237,10 @@ body {
   background-color: rgba(0, 0, 0, 0.7); }
 
 .menu-icon.active {
-  left: 16%;
+  left: 13%;
   -webkit-transition: all 0.3s ease; }
+  .menu-icon.active span {
+    background-color: white; }
 
 header {
   text-align: center;

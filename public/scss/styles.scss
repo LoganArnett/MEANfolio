@@ -116,8 +116,11 @@ $mobile-6: 667px;
 }
 
 .menu-icon.active {
-    left: 16%;
+    left: 13%;
     -webkit-transition: all 0.3s ease;
+    span {
+      background-color: white;
+    }
 }
 
 header {
