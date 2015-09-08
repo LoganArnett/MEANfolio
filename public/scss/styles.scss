@@ -12,9 +12,9 @@ body {
 $center : 0 auto;
 $green: #9BD095;
 $trans-black: rgba(0,0,0,0.7);
-$medium-screen: em(760);
-$large-screen: em(992);
-$mobile-6: em(667);
+$medium-screen: 760px;
+$large-screen: 992px;
+$mobile-6: 667px;
 
 .slideIn {
   left: 0;
@@ -26,12 +26,19 @@ $mobile-6: em(667);
   position: fixed;
   top: 1%;
   left: 1%;
-  width: 1.2em;
-  height:15px;
+  width: 3em;
+  height:45px;
   cursor:pointer;
   z-index: 9999;
   -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease;
+  @include media($medium-screen){
+    width: 1.2em;
+    height:15px;
+    @include hidpi {
+      width: 3em;
+    }
+  }
   &.active {
     &.done span {
       &.top {
@@ -70,6 +77,12 @@ $mobile-6: em(667);
     display:block;
     height:3px;
     background-color: white;
+    @include media($medium-screen) {
+      height: 3px;
+    }
+    @include hidpi(2) {
+      height:5px;
+    }
     &.top {
       top:0px;
       -webkit-transition: all 0.3s ease-in-out;
@@ -77,10 +90,21 @@ $mobile-6: em(667);
     &.middle {
       top:6px;
       -webkit-transition: all 0.2s ease-in-out;
+      @include media($mobile-6) {
+        @include hidpi(2) {
+          top:15px;
+        }
+      }
     }
     &.bottom {
-      top:12px;
+      top:30px;
       -webkit-transition: all 0.3s ease-in-out;
+      @include media($medium-screen) {
+        top:12px;
+      }
+      @include hidpi(2) {
+        top:30px;
+      }
     }
   }
 }
@@ -125,9 +149,14 @@ header {
 
   .hero-logo img {
     margin: 15% 0 1em;
-    height: 35em;
+    height: 15em;
     @include media($large-screen) {
       height: 12em;
+    }
+    @include media($mobile-6) {
+      @include hidpi(2) {
+        height: 30em;
+      }
     }
   }
 
@@ -146,7 +175,7 @@ header {
         font-size: 4em;
         margin-bottom: 0.5em;
 
-        @include media($large-screen) {
+        @include media($medium-screen) {
           font-size: 1.8em;
         }
       }
@@ -257,6 +286,9 @@ header {
         width: 50%;
         margin-left: 50%;
         font-size: 2.5em;
+      }
+      @include hidpi(2) {
+        margin-top: 5%;
       }
     }
 
@@ -371,10 +403,13 @@ header {
     figure {
       text-align: center;
       img {
-        width: 75%;
-        @include media($large-screen) {
-          width: 50%;
+        width: 60%;
+        @include media($mobile-6) {
+          @include hidpi(2) {
+              width: 50%;
+          }
         }
+
       }
       figcaption {
         font-size: 2em;
