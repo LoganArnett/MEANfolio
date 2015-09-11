@@ -278,7 +278,6 @@ header {
 
     h3 {
       background: #BBB;
-      color: white;
       font-size: 5.5em;
       margin-bottom: 0.5em;
       padding: 3px 8px;
@@ -292,6 +291,13 @@ header {
       }
       @include hidpi(2) {
         margin-top: 5%;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      &:hover {
+        background: $green;
       }
     }
 
@@ -452,7 +458,7 @@ header {
       margin: $center;
       display: block;
       min-height: em(150px);
-      font-size: 1.4em;
+      font-size: 1.1em;
       border-radius: 8px;
       &:focus {
         outline: none;
@@ -467,7 +473,6 @@ header {
       font-size: 1.2em;
       background-color: $green;
       color: white;
-      border: none;
       &:focus {
         outline: none;
       }

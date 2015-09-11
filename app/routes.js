@@ -28,12 +28,15 @@ app.post('/api/projects', function(req, res){
       title: info.title,
       desc: info.desc,
       tech: info.tech,
+      demo: info.demo,
       created_at: Date.now()
   })
   project.save(function(err){
     if (err) return handleError(err);
     // saved
+    res.status(200).send(info)
   })
+  res.status(200).send(info)
 });
 // frontend routes ======
 // route to handle all angular requests

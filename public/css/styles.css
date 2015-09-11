@@ -363,7 +363,6 @@ header {
           font-size: 1.5em; } }
     .side-image .side-image-content h3 {
       background: #BBB;
-      color: white;
       font-size: 5.5em;
       margin-bottom: 0.5em;
       padding: 3px 8px;
@@ -378,6 +377,11 @@ header {
       @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
         .side-image .side-image-content h3 {
           margin-top: 5%; } }
+      .side-image .side-image-content h3 a {
+        text-decoration: none;
+        color: white; }
+      .side-image .side-image-content h3:hover {
+        background: #9BD095; }
     .side-image .side-image-content p {
       color: #333;
       line-height: 1.5em;
@@ -509,7 +513,7 @@ header {
     margin: 0 auto;
     display: block;
     min-height: 9.375em;
-    font-size: 1.4em;
+    font-size: 1.1em;
     border-radius: 8px; }
     .project-form-container form textarea:focus {
       outline: none; }
@@ -521,7 +525,6 @@ header {
     border-radius: 8px;
     font-size: 1.2em;
     background-color: #9BD095;
-    color: white;
-    border: none; }
+    color: white; }
     .project-form-container form button:focus {
       outline: none; }

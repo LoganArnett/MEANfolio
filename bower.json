@@ -11,7 +11,8 @@
     "animate.css": "latest",
     "bootstrap": "latest",
     "font-awesome": "~4.4.0",
-    "restangular": "~1.5.1"
+    "restangular": "~1.5.1",
+    "sweetalert2": "~0.2.2"
   },
   "license": "MIT",
   "ignore": [
