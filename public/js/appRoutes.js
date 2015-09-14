@@ -7,16 +7,16 @@
         // home page
         .state('home', {
             url: '/',
-            templateUrl: 'public/views/home.html',
+            templateUrl: 'MEANfolio/public/views/home.html',
         })
         .state('projects', {
             url: '/new/project',
-            templateUrl: 'public/views/new_project.html',
+            templateUrl: 'MEANfolio/public/views/new_project.html',
             controller: 'ProjectCtrl as project'
         })
         .state('about', {
           url: '/about',
-          templateUrl: 'public/views/about.html',
+          templateUrl: 'MEANfolio/public/views/about.html',
         })
 
     $urlRouterProvider.otherwise('/');
