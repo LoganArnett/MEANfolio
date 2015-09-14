@@ -30,5 +30,8 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-imagemin": "^2.3.0"
+  }
 }

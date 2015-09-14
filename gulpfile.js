@@ -9,7 +9,9 @@ var gulp = require('gulp'),
     source = require('vinyl-source-stream'),
     buffer = require('vinyl-buffer'),
     browserSync = require('browser-sync').create(),
-    nodemon = require('gulp-nodemon');
+    nodemon = require('gulp-nodemon'),
+    imagemin = require('gulp-imagemin');
+
 
     // Static Server + watching scss/html files
 gulp.task('server', ['sass'], function() {
@@ -62,7 +64,7 @@ gulp.task('styles', function() {
 gulp.task('images', function() {
   return gulp.src('public/assets/images/*')
     .pipe(imagemin())
-    .pipe(gulp.dest('dist/img'));
+    .pipe(gulp.dest('dist/assets/images'));
 });
 
 gulp.task('start', function () {
@@ -86,4 +88,4 @@ gulp.task('serve', ['start', 'server'])
 gulp.task('default', ['jshint', 'sass', 'watch']);
 
 // Build task
-gulp.task('build', ['jshint', 'sass', 'html', 'scripts', 'styles', 'images']);
+gulp.task('build', ['sass', 'html', 'scripts', 'styles', 'images']);
