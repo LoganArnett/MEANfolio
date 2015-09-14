@@ -1,5 +1,5 @@
 'use strict';
-    angular.module('scotchMean').config(function($stateProvider, $urlRouterProvider, RestangularProvider) {
+    angular.module('meanFolio').config(function($stateProvider, $urlRouterProvider, RestangularProvider) {
     RestangularProvider.setBaseUrl('http://fierce-brook-9239.herokuapp.com/');
 
     $stateProvider

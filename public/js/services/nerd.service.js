@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('scotchMean')
+angular.module('meanFolio')
 
 .factory('Nerd', function($http){
 

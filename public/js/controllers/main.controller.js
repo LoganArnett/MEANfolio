@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('scotchMean')
+angular.module('meanFolio')
 
 .factory('projectFactory', function projectFactory(Restangular){
   return Restangular.one('api/projects').getList();

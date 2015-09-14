@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="meanFolio">
 <head>
     <meta charset="UTF-8">
     <base href="/">
@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="public/libs/sweetalert2/dist/sweetalert2.css">
     <link rel="stylesheet" href="public/css/styles.css">
 
-
+    <!-- dependencies-->
     <script src="public/libs/angular/angular.min.js"></script>
     <script src="public/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="public/libs/lodash/lodash.min.js"></script>
     <script src="public/libs/restangular/dist/restangular.min.js"></script>
+    <!-- END dependencies -->
 
 </head>
-<body ng-app="scotchMean" ng-controller="MainCtrl as main">
+<body ng-controller="MainCtrl as main">
 <div class="container">
 
 
@@ -43,10 +44,8 @@
          <li class="nav-item"><a href="#">Blog</a></li>
          <li class="nav-item"><a href="#">Contact</a></li>
        </ul>
-
        <input type="checkbox" id="nav-trigger" class="nav-trigger" ng-click="main.hamburger($event)"/>
        <label for="nav-trigger">
-
        </label> -->
       <div ui-view></div>
     </div>
@@ -58,7 +57,6 @@
             <li><a href="#/nerds">Projects</a></li>
         </ul>
     </nav>
-
     <div ui-view></div> -->
 
 </div>

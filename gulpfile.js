@@ -39,23 +39,27 @@ gulp.task('sass', function() {
 
 // Minify index
 gulp.task('html', function() {
-  return gulp.src('public/index.html')
+  return gulp.src('index.html')
     .pipe(minifyHTML())
     .pipe(gulp.dest('dist/'));
 });
 
 // JavaScript build task, removes whitespace and concatenates all files
 gulp.task('scripts', function() {
-  return browserify(['public/js/*.js', 'public/js/**/*.js'])
-    .bundle()
-    .pipe(concat('app.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('dist/js'));
+  return browserify(['public/js/app.js', 'public/js/appRoutes.js', 'public/js/controllers/main.controller.js', 'public/js/controllers/project.controller.js'])
+    .bundle();
+});
+
+gulp.task('miniScripts', function() {
+  return gulp.src(['public/js/*.js', 'public/js/**/*.js'])
+  .pipe(concat('app.js'))
+  .pipe(uglify())
+  .pipe(gulp.dest('dist/js'))
 });
 
 // Styles build task, concatenates all the files
 gulp.task('styles', function() {
-  return gulp.src('public/css/*.css')
+  return gulp.src(['public/libs/sweetalert2/dist/sweetalert2.css', 'public/libs/font-awesome/css/font-awesome.min.css', 'public/css/*.css'])
     .pipe(concat('styles.css'))
     .pipe(gulp.dest('dist/css'));
 });
@@ -88,4 +92,4 @@ gulp.task('serve', ['start', 'server'])
 gulp.task('default', ['jshint', 'sass', 'watch']);
 
 // Build task
-gulp.task('build', ['sass', 'html', 'scripts', 'styles', 'images']);
+gulp.task('build', ['sass', 'html', 'scripts', 'miniScripts', 'styles', 'images']);

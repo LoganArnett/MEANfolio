@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('scotchMean')
+angular.module('meanFolio')
 
 .controller('ProjectCtrl', function(Restangular) {
     var self = this;

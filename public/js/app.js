@@ -1,1 +1,2 @@
-angular.module('scotchMean', ['ui.router', 'restangular']);
+'use strict';
+angular.module('meanFolio', ['ui.router', 'restangular']);

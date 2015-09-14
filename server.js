@@ -1,4 +1,4 @@
-// ScotchMean server.js
+// meanFolio server.js
 
 // modules ========
 var express = require('express');
