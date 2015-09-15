@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+  "site": "Wild English",
+  "title": "Angular App for a Seattle based band",
+  "desc": "This web application is very simple at the moment and is awaiting the bands updates with photos and bios. The application utilizes the Google Calendar API for the event listings and keeping them up to date. Also makes it nice and easy for the band members themselves to keep that updated at any time from anywhere. The application also pulls from the Soundcloud API to grab the bands profile and playlists for the end user to be able to listen directly on the site.",
+  "tech": [
+      "AngularJS",
+      "Bootstrap",
+      "Bower",
+      "Gulp",
+      "Google Calendar Api",
+      "Soundcloud Api"
+    ]
+  }
+]}
