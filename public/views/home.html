@@ -21,7 +21,7 @@
       <ul class="tech">
         <li ng-repeat="name in project.tech">
           <figure>
-            <img src="public/assets/images/{{name | underscore}}.png" alt="{{name}}">
+            <img src="public/assets/images/{{name | lowercase | underscore}}.png" alt="{{name}}">
             <figcaption>{{name | caps}}</figcaption>
           </figure>
         </li>
