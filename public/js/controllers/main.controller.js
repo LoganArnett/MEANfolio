@@ -31,7 +31,6 @@ angular.module('meanFolio')
   this.hamburger = function(e){
     var meat = angular.element(document.querySelector( '.menu-icon' ));
     var menu = angular.element(document.querySelector( '#menuFade' ));
-    console.log(meat)
     meat.toggleClass('active');
     menu.toggleClass('is-visible');
     setTimeout(function() {
@@ -45,6 +44,15 @@ angular.module('meanFolio')
     // angular.element(document.querySelector('.sliding-panel-fade-screen')).toggleClass('is-visible');
     angular.element(document.querySelector('.menu-icon')).toggleClass('active');
     setTimeout(function(){angular.element(document.querySelector('.menu-icon')).toggleClass('done')}, 300)
+  };
+
+  this.sidePanelSelect = function(e) {
+    angular.element(document.querySelector('.sliding-panel-content')).toggleClass('is-visible');
+    angular.element(document.querySelector('.sliding-panel-fade-screen')).toggleClass('is-visible');
+    // angular.element(document.querySelector('.sliding-panel-fade-screen')).toggleClass('is-visible');
+    angular.element(document.querySelector('.menu-icon')).toggleClass('active');
+    setTimeout(function(){angular.element(document.querySelector('.menu-icon')).toggleClass('done')}, 300)
+    window.scrollTo(0,0);
   };
 })
 .directive("scrollnav", function ($window) {

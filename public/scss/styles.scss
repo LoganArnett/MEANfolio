@@ -12,6 +12,7 @@ body {
 $center : 0 auto;
 $green: #9BD095;
 $trans-black: rgba(0,0,0,0.7);
+$small-screen: 420px;
 $medium-screen: 760px;
 $large-screen: 992px;
 $mobile-6: 667px;
@@ -50,16 +51,22 @@ $mobile-6: 667px;
     }
     span {
       &.top {
-        top:7px;
+        top: 15px;
         -webkit-transform: rotate(180deg);
+        @include media($medium-screen) {
+          top:7px;
+        }
       }
       &.middle {
         top:6px;
         opacity:0.0;
       }
       &.bottom {
-        top:7px;
+        top: 15px;
         -webkit-transform: rotate(-180deg);
+        @include media($medium-screen) {
+          top:7px;
+        }
       }
     }
   }
@@ -75,7 +82,7 @@ $mobile-6: 667px;
     position:absolute;
     width:100%;
     display:block;
-    height:3px;
+    height:5px;
     background-color: white;
     @include media($medium-screen) {
       height: 3px;
@@ -88,8 +95,11 @@ $mobile-6: 667px;
       -webkit-transition: all 0.3s ease-in-out;
     }
     &.middle {
-      top:6px;
+      top:12px;
       -webkit-transition: all 0.2s ease-in-out;
+      @include media($medium-screen) {
+        top:6px;
+      }
       @include media($mobile-6) {
         @include hidpi(2) {
           top:15px;
@@ -97,7 +107,7 @@ $mobile-6: 667px;
       }
     }
     &.bottom {
-      top:30px;
+      top:25px;
       -webkit-transition: all 0.3s ease-in-out;
       @include media($medium-screen) {
         top:12px;
@@ -116,7 +126,7 @@ $mobile-6: 667px;
 }
 
 .menu-icon.active {
-    left: 13%;
+    left: 14.5em;
     -webkit-transition: all 0.3s ease;
     span {
       background-color: white;
@@ -169,17 +179,19 @@ header {
     margin: auto;
     padding: 3.5em;
     text-align: center;
-
     .hero-copy {
       text-align: center;
-
       h1 {
         color: $hero-color;
         font-size: 4em;
         margin-bottom: 0.5em;
-
         @include media($medium-screen) {
           font-size: 1.8em;
+        }
+        @include media($mobile-6){
+          @include hidpi(2) {
+            font-size: 4em;
+          }
         }
       }
 
@@ -368,7 +380,7 @@ header {
     }
 
     &:hover {
-      background-color: $sliding-panel-background-hover;
+      background-color: $green;
       color: $sliding-panel-color-hover;
     }
   }
@@ -477,5 +489,103 @@ header {
         outline: none;
       }
     }
+  }
+}
+
+// END home
+
+// START about
+#about {
+  height: 100vh;
+  padding: 2% 0;
+  color: rgba(255,255,255,0.8);
+  background: linear-gradient(rgba(0,0,0,0.8),$trans-black), url('../assets/images/desktop.jpg');
+  h1 {
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 2em;
+  }
+  .about-content {
+    @include outer-container;
+    .about-img {
+      @include span-columns(4);
+      float: left;
+      padding: 1em;
+      img {
+        border-radius: 10ex;
+        width: 100%;
+        height: auto;
+      }
+    }
+    .about-bio {
+      font-size: 1.5em;
+      line-height: 3.5ex;
+    }
+  }
+}
+// END about
+
+// START footer
+footer {
+  @include outer-container(100%);
+  background: $green;
+  color: white;
+  .footer-img {
+    @include span-columns(2);
+    padding: 2% 0 0;
+    text-align: center;
+    img {
+      height: 8ex;
+      background: white;
+      border-radius: 50%;
+      padding: 0.3em;
+    }
+  }
+  ul.footer-nav {
+    @include span-columns(4);
+    list-style-type: none;
+    font-size: 1.2em;
+    margin-top: 4ex;
+    margin-bottom: 0;
+    padding-left: 0;
+    li {
+      display: inline-block;
+      padding: 1% 2.5%;
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: #ddd;
+        }
+      }
+    }
+  }
+  ul.social-nav {
+    @include span-columns(6);
+    list-style-type: none;
+    font-size: 2.5em;
+    margin-top: 1ex;
+    padding-left: 0;
+    padding-right: 2em;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-align: right;
+    li {
+      display: inline-block;
+      padding: 1% 2.5%;
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: #ddd;
+        }
+      }
+    }
+  }
+  .copyright {
+    @include span-columns(12);
+    text-align: right;
+    margin-top: 0;
+    padding-right: 7em;
   }
 }

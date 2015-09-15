@@ -10,8 +10,7 @@ var gulp = require('gulp'),
     buffer = require('vinyl-buffer'),
     browserSync = require('browser-sync').create(),
     nodemon = require('gulp-nodemon'),
-    imagemin = require('gulp-imagemin')
-    inject = require('gulp-inject');
+    imagemin = require('gulp-imagemin');
 
 
     // Static Server + watching scss/html files
@@ -46,18 +45,20 @@ gulp.task('html', function() {
 });
 
 // JavaScript build task, removes whitespace and concatenates all files
-gulp.task('scripts', function() {
-  browserify('public/js/app.js')
+gulp.task('browserify', function() {
+  return browserify(['public/js/app.js'])
     .bundle()
     .pipe(source('app.js'))
     .pipe(buffer())
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
+});
 
-  gulp.src('public/libs/vendors/*.js')
+gulp.task('scripts', function() {
+  return gulp.src(['public/js/**/*.js', '!public/js/app.js'])
+    .pipe(concat('controllers.js'))
     .pipe(uglify())
-    .pipe(concat("vendor.js"))
-    .pipe(gulp.dest('dist/js'))
+    .pipe(gulp.dest('dist/js'));
 });
 
 // Styles build task, concatenates all the files
@@ -95,4 +96,4 @@ gulp.task('serve', ['start', 'server'])
 gulp.task('default', ['jshint', 'sass', 'watch']);
 
 // Build task
-gulp.task('build', ['sass', 'html', 'scripts', 'styles', 'images']);
+gulp.task('build', ['sass', 'html', 'browserify', 'scripts', 'styles', 'images']);

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <base href="/">
 
-    <title>Meanie</title>
+    <title>Logan Arnett | Web Developer</title>
 
-    <!-- inject:app-style:css -->
-    <!-- endinject -->
+    <link rel="stylesheet" href="public/libs/sweetalert2/dist/sweetalert2.css">
+    <link rel="stylesheet" href="public/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/css/styles.css">
 
 </head>
 <body ng-controller="MainCtrl as main">
@@ -22,9 +23,9 @@
 
 <nav class="js-menu sliding-panel-content">
 <ul>
-  <li><a ui-sref="home" ng-click="main.sidePanel($event)">Home</a></li>
-  <li><a ui-sref="about" ng-click="main.sidePanel($event)">About</a></li>
-  <li><a ui-sref="projects" ng-click="main.sidePanel($event)">Projects</a></li>
+  <li><a ui-sref="home" ng-click="main.sidePanelSelect($event)">Home</a></li>
+  <li><a ui-sref="about" ng-click="main.sidePanelSelect($event)">About</a></li>
+  <li><a ui-sref="contact" ng-click="main.sidePanelSelect($event)">Contact</a></li>
 </ul>
 </nav>
 
@@ -43,19 +44,30 @@
       <div ui-view></div>
     </div>
 
-    <!-- NAVIGATION -->
-    <!-- <nav class="">
-        <ul class="">
-            <li><a class="" href="#/">Logan Arnett</a></li>
-            <li><a href="#/nerds">Projects</a></li>
-        </ul>
-    </nav>
-    <div ui-view></div> -->
-
+    <footer>
+      <div class="footer-img">
+        <img src="public/assets/images/logo1.svg" alt="Logan Arnett">
+      </div>
+      <ul class="footer-nav">
+        <li><a ui-sref="home" ng-click="main.sidePanel($event)">Home</a></li>
+        <li><a ui-sref="about" ng-click="main.sidePanel($event)">About</a></li>
+        <li><a ui-sref="contact" ng-click="main.sidePanel($event)">Contact</a></li>
+      </ul>
+      <ul class="social-nav">
+        <li><a href="https://github.com/LoganArnett"><span class="fa fa-github"></span></a></li>
+        <li><a href="https://twitter.com/RxNerd"><span class="fa fa-twitter"></span></a></li>
+        <li><a href="https://www.linkedin.com/in/loganarnett"><span class="fa fa-linkedin"></span></a></li>
+      </ul>
+      <p class="copyright">Logan Arnett &copy2015</p>
+    </footer>
 </div>
-    <!-- inject:vendor:js -->
-    <!-- END inject -->
-    <!-- inject:app:js -->
-    <!-- END inject -->
+    <script src="public/js/vendors/angular.min.js"></script>
+    <script src="public/js/vendors/angular-ui-router.min.js"></script>
+    <script src="public/js/vendors/lodash.min.js"></script>
+    <script src="public/js/vendors/restangular.min.js"></script>
+    <script src="public/js/vendors/sweetalert2.min.js"></script>
+    <script src="public/js/app.js"></script>
+    <script src="public/js/controllers/main.controller.js"></script>
+    <script src="public/js/controllers/project.controller.js"></script>
 </body>
 </html>
