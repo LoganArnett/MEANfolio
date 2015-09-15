@@ -653,3 +653,32 @@ footer {
     padding-right: 7em; }
     footer .copyright:last-child {
       margin-right: 0; }
+
+#contact {
+  height: 100vh;
+  padding: 2% 0;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../assets/images/desktop.jpg"); }
+  #contact h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 4ex; }
+  #contact .contact-info {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    #contact .contact-info::after {
+      clear: both;
+      content: "";
+      display: table; }
+    #contact .contact-info ul {
+      list-style-type: none;
+      text-align: center; }
+      #contact .contact-info ul li {
+        font-size: 1.8em;
+        margin-bottom: 4ex; }
+        #contact .contact-info ul li a {
+          color: white;
+          text-decoration: none; }
+          #contact .contact-info ul li a:hover {
+            color: #9BD095; }
