@@ -10,7 +10,8 @@ var gulp = require('gulp'),
     buffer = require('vinyl-buffer'),
     browserSync = require('browser-sync').create(),
     nodemon = require('gulp-nodemon'),
-    imagemin = require('gulp-imagemin');
+    imagemin = require('gulp-imagemin')
+    inject = require('gulp-inject');
 
 
     // Static Server + watching scss/html files
@@ -46,22 +47,18 @@ gulp.task('html', function() {
 
 // JavaScript build task, removes whitespace and concatenates all files
 gulp.task('scripts', function() {
-  gulp.src('public/js/app.js')
-  .pipe(browserify({
-    insertGlobals: true,
-    debug: true
-  }))
-  .pipe(concat('app.js'))
-  .pipe(uglify())
-  .pipe(gulp.dest('dist/js'))
-});
+  browserify('public/js/app.js')
+    .bundle()
+    .pipe(source('app.js'))
+    .pipe(buffer())
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/js'));
 
-// gulp.task('miniScripts', function() {
-//   return gulp.src(['public/js/*.js', 'public/js/**/*.js'])
-//   .pipe(concat('app.js'))
-//   .pipe(uglify())
-//   .pipe(gulp.dest('dist/js'))
-// });
+  gulp.src('public/libs/vendors/*.js')
+    .pipe(uglify())
+    .pipe(concat("vendor.js"))
+    .pipe(gulp.dest('dist/js'))
+});
 
 // Styles build task, concatenates all the files
 gulp.task('styles', function() {
