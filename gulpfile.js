@@ -46,16 +46,22 @@ gulp.task('html', function() {
 
 // JavaScript build task, removes whitespace and concatenates all files
 gulp.task('scripts', function() {
-  return browserify(['public/js/app.js', 'public/js/appRoutes.js', 'public/js/controllers/main.controller.js', 'public/js/controllers/project.controller.js'])
-    .bundle();
-});
-
-gulp.task('miniScripts', function() {
-  return gulp.src(['public/js/*.js', 'public/js/**/*.js'])
+  gulp.src('public/js/app.js')
+  .pipe(browserify({
+    insertGlobals: true,
+    debug: true
+  }))
   .pipe(concat('app.js'))
   .pipe(uglify())
   .pipe(gulp.dest('dist/js'))
 });
+
+// gulp.task('miniScripts', function() {
+//   return gulp.src(['public/js/*.js', 'public/js/**/*.js'])
+//   .pipe(concat('app.js'))
+//   .pipe(uglify())
+//   .pipe(gulp.dest('dist/js'))
+// });
 
 // Styles build task, concatenates all the files
 gulp.task('styles', function() {
@@ -92,4 +98,4 @@ gulp.task('serve', ['start', 'server'])
 gulp.task('default', ['jshint', 'sass', 'watch']);
 
 // Build task
-gulp.task('build', ['sass', 'html', 'scripts', 'miniScripts', 'styles', 'images']);
+gulp.task('build', ['sass', 'html', 'scripts', 'styles', 'images']);
