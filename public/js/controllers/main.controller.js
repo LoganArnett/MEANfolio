@@ -23,7 +23,7 @@ angular.module('meanFolio')
   setTimeout(function() {
     projectFactory.then(function(results){
       return self.projects = results;
-    }, 1000)
+    }, 2000)
   });
 
 
