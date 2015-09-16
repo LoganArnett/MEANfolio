@@ -342,7 +342,7 @@ header {
         border-right: 1px solid rgba(38, 74, 38, 0.2); }
         .side-image .images-wrapper.right {
           float: right;
-          height: 100%; } }
+          height: 100vh; } }
     .side-image .images-wrapper img {
       width: 200%;
       position: absolute;
