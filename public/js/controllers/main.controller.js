@@ -20,11 +20,11 @@ angular.module('meanFolio')
 .controller('MainCtrl', function(projectFactory){
   var self = this;
   this.projects = [];
-  setTimeout(function() {
+  this.loadProjects = function() {
     projectFactory.then(function(results){
       return self.projects = results;
     })
-  }, 1000);
+  };
 
 
   this.tagline = "Let's Make Something Amazing"
