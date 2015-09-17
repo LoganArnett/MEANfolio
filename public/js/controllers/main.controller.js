@@ -23,8 +23,8 @@ angular.module('meanFolio')
   setTimeout(function() {
     projectFactory.then(function(results){
       return self.projects = results;
-    }, 2000)
-  });
+    })
+  }, 1000);
 
 
   this.tagline = "Let's Make Something Amazing"
