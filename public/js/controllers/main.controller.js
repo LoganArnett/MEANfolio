@@ -25,6 +25,7 @@ angular.module('meanFolio')
       return self.projects = results;
     })
   };
+  this.loadProjects();
 
 
   this.tagline = "Let's Make Something Amazing"
