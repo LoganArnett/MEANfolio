@@ -6,6 +6,14 @@
     <div class="hero-copy">
       <h1>Let's Make Something Amazing.</h1>
     </div>
+    <div class="loading" ng-if="main.projects.length == 0">
+      <span class="loader">
+        <span class="loader-inner"></span>
+      </span>
+      <p style="color: white;">
+        Loading Projects
+      </p>
+    </div>
   </div>
 </header>
 <section id="project{{$index + 1}}" class="project" ng-repeat="($index, project) in main.projects">

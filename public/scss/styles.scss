@@ -209,6 +209,24 @@ header {
   }
 }
 
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  top: 50%;
+  animation: loader 2s infinite ease;
+  border-radius: 5px;
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+}
+
 .side-image {
   $base-line-height: 1.5em !default;
   $action-color: #477DCA !default;
