@@ -339,21 +339,26 @@ header {
             font-size: 1.1em;
             max-width: 40%; } }
 
-.loader {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  position: relative;
-  border: 4px solid #Fff;
-  top: 50%;
-  animation: loader 2s infinite ease;
-  border-radius: 5px; }
-  .loader .loader-inner {
-    vertical-align: top;
+.loading {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0; }
+  .loading .loader {
     display: inline-block;
-    width: 100%;
-    background-color: #fff;
-    animation: loader-inner 2s infinite ease-in; }
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    top: 50%;
+    animation: loader 2s infinite ease;
+    border-radius: 5px; }
+    .loading .loader .loader-inner {
+      vertical-align: top;
+      display: inline-block;
+      width: 100%;
+      background-color: #fff;
+      animation: loader-inner 2s infinite ease-in; }
 
 .side-image {
   height: 100%;
